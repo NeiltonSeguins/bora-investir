@@ -1,0 +1,11 @@
+.conteudo-principal {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.grafico {
+  margin: 50px;
+}
