@@ -1,0 +1,44 @@
+.site-info{
+    display: flex;
+    height: 65vh;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-family: 'Roboto';
+}
+
+.info-subtitulo {
+    color: #23013D;
+}
+
+.color {
+    color: #57CC99;
+}
+
+.info-texto {
+    color: #000000;
+}
+
+
+.container-mais {
+    background: #57CC99;
+    border-radius: 100px;
+    width: calc(4em + 1vw);
+    padding: 3px 0px 0px 12px;
+    height: calc(1.1em + 1.6vh);    
+    align-self: self-end;
+    
+}
+
+@media (min-width: 280px) {
+    .site-info{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (min-width: 800px) {
+    .site-info{
+        padding-left: 73px;
+        padding-right: 15px;
+    }
+}
