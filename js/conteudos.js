@@ -9,7 +9,7 @@ function getThumb(id) {
 const idsVideos = ['dJyJ77GkhBE', 't0RzA9-9RX0', 'D9i-0SxQeSU', 'J25ZMPx7J1s'];
 
 const containers = document.querySelectorAll('.conteudos__lista__item');
-const iframe = document.querySelector('.conteudos__video__video').querySelector('iframe');
+const iframe = document.querySelector('.conteudos__video').querySelector('iframe');
 
 let i = 0;
 containers.forEach(container => {
