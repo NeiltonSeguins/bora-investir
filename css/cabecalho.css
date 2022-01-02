@@ -1,0 +1,41 @@
+.cabecalho {
+    height: 100vh;
+    background-color: #23013D;
+    overflow:hidden;
+}
+
+@media (min-width: 200px) {
+    #logo {
+        width: 115px;
+        margin: 15px 0px 0px 10px;
+    }
+}
+
+@media (min-width: 600px) {
+    .nav-links li {
+        width: 115px;
+        padding-top: 5px;
+    }
+
+    #cadastre-se {
+        background: #80ED99;
+        border-radius: 100px;
+        height: 30px;
+    }
+
+    #entrar {
+        border: 1px solid #80ED99;
+        box-sizing: border-box;
+        border-radius: 100px;
+        height: 30px;
+    }
+}
+
+
+@media (min-width: 800px) {
+    #logo {
+        width: 160px;
+        margin: 100px 0px 0px 70px;
+    }
+
+}
