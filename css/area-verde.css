@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+/* **************************** */
+/* Section [Seja um Investidor] */
+/* **************************** */
+
+.main__seja-investidor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.seja-investidor__titulo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+
+  margin-bottom: 5rem;
+}
+
+.seja-investidor__cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  width: 100%;
+  padding: 0 10rem;
+}
+
+.seja-investidor__cards__individual-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  width: 20%;
+  /* height: 600px; */
+}
+
+.individual-card__imagem img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.individual-card__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #50049a;
+}
+
+.individual-card__descricao {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+
+  margin-top: 40px;
+}
+
+.seja-investidor__cards__divisor_cima,
+.seja-investidor__cards__divisor_baixo {
+  width: 20%;
+}
+
+.seja-investidor__cards__divisor_cima img,
+.seja-investidor__cards__divisor_baixo img {
+  width: 100%;
+}
+
+.seja-investidor__cards__divisor_baixo {
+  margin-top: 10rem;
+}
+
+.seja-investidor__cards__divisor_baixo img {
+  transform: rotate(180deg);
+}
+
+/* ***************************************** */
+/* Section [Descubra Seu Tipo de Investidor] */
+/* ***************************************** */
+
+.main__tipo-investidor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+
+  background: #80ed99;
+}
+
+.tipo-investidor__titulo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: rgba(35, 1, 61, 1);
+
+  width: 50%;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.tipo-investidor__cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5rem;
+
+  width: 100%;
+  padding: 0 10rem;
+}
+
+.tipo-investidor__cards__individual-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  width: 30%;
+
+  background: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.tipo-investidor__cards__individual-card__imagem img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.tipo-investidor__cards__individual-card__titulo {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  margin-bottom: 2rem;
+
+  color: #23013d;
+}
+
+.tipo-investidor__cards__individual-card__descricao {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+}
