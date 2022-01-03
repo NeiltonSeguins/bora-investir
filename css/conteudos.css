@@ -1,0 +1,126 @@
+.conteudos {
+    font-family: 'Roboto', sans-serif;
+    background-color: #23013D;
+    background-image: url('../assets/Imagens/8.svg');
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 120%;
+    background-size: 500px;
+    padding: 80px 15%;
+}
+
+.conteudos__titulo {
+    color: #FFF;
+    font-size: 40px;
+}
+
+.conteudos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.conteudos__lista__item {
+    background-color: #FFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+    cursor: pointer;
+    height: 125px;
+    margin: 0 5px 10px 0;
+    margin-bottom: 15px;
+    transition: 1s;
+    width: 220px;
+}
+
+.conteudos__lista__item:hover {
+    transform: scale(1.02);
+}
+
+.conteudos__lista__item--ativo {
+    border: 4px solid #57CC99;
+}
+
+.conteudos__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudos__texto {
+    color: #FFF;
+    font-size: 35px;
+    width: 40%;
+}
+
+.conteudos__video {
+    height: 295px;
+    width: 55%;
+}
+
+@media (max-width: 768px) {
+    .conteudos {
+        background-position-x: 90%;
+        background-position-y: 110%;
+        background-size: 400px;
+    }
+
+    .conteudos__titulo {
+        font-size: 18px;
+    }
+
+    .conteudos__lista {
+        margin: 30px 0 15px;
+    }
+
+    .conteudos__lista__item {
+        border-radius: 10px;
+        height: 85px;
+        margin-bottom: 15px;
+        width: 150px;
+    }
+
+    .conteudos__lista__item--ativo {
+        border: 3px solid #57CC99;
+    }
+
+    .conteudos__container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .conteudos__texto {
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .conteudos__video {
+        align-self: center;
+        height: 210px;
+        margin: 20px 0;
+        width: 370px;
+    }
+}
+
+@media (max-width: 480px) {
+    .conteudos {
+        padding: 20px;
+        background-position-x: 90%;
+        background-position-y: 120%;
+        background-size: 350px;
+    }
+
+    .conteudos__lista__item {
+        border-radius: 10px;
+        height: 85px;
+        margin-bottom: 15px;
+        width: 47%;
+    }
+
+    .conteudos__video {
+        height: 180px;
+        width: 100%;
+    }
+}

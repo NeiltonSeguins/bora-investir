@@ -1,4 +1,4 @@
-ctx = document.getElementById('grafico2').getContext('2d');
+ctx = document.getElementById('graf-2').getContext('2d');
 
 grafico = new Chart(ctx, {
     type: 'bar',
