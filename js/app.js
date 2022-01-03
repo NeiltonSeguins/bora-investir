@@ -1,6 +1,6 @@
 const btnMostrarMais = document.querySelector(".container-mais");
 const btnMostrarMenos = document.querySelector(".graficos__button--menos");
-const div = document.querySelector("#show-graphs");
+const div = document.querySelector(".graficos");
 
 document.addEventListener("DOMContentLoaded", nav);
 
@@ -14,12 +14,12 @@ function nav() {
 
 btnMostrarMais.addEventListener("click", () => {
   btnMostrarMais.style.display = "none";
-  div.style.display = "flex";
+  div.classList.remove('animate');
   btnMostrarMenos.style.display = "block";
 });
 
 btnMostrarMenos.addEventListener("click", () => {
   btnMostrarMenos.style.display = "none";
-  div.style.display = "none";
+  div.classList.add('animate');
   btnMostrarMais.style.display = "block";
 });
