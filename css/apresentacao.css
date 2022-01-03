@@ -2,10 +2,7 @@
     height: 50%;
     display: flex;
     flex-direction: column;
-    width: 42%;
     justify-content: space-evenly;
-    margin: 30px 0px 0px 15px;
-    font-size: calc(0.5em + 0.4vw);
 }
 
 .apresentacao-titulo {
@@ -23,16 +20,15 @@
 .container-saiba-mais {
     background: #FFFFFF;
     border-radius: 100px;
-   
-    width: calc(7em + 2vw);
-    padding: 3px 0px 0px 0px;
+
+    width: calc(8em + 2vw);
+
     height: calc(1.5em + 1.6vh);
 }
+
 .senhor-sentado {
     display: flex;
-
     align-items: flex-start;
-
     float: right;
 }
 
@@ -57,7 +53,24 @@
     #senhor-sentado {
         width: 58vw;
         margin: 15px 0px 0px -151px;
+    }
 
+    .apresentacao-site {
+        font-size: calc(0.5em + 0.4vw);
+        width: 42%;
+        margin: 30px 0px 0px 15px;
+    }
+
+    #saiba-mais {
+
+        padding: 0px 0px 0px 6px;
+        font-family: 'Rubik';
+        font-size: calc(1.1em + 0.4vw);
+
+    }
+
+    .container-saiba-mais {
+        padding: 3px 0px 0px 0px;
     }
 }
 
@@ -85,35 +98,91 @@
     }
 }
 
+@media (min-width: 450px) {
+    #senhor-sentado {
+        margin: 5px 0px 0px -223px;
+    }
+}
+
+
 @media (min-width: 600px) {
     .senhor-sentado {
-        margin: -254px 0px 0px 0px;
+        margin: -290px 0px 0px 0px;
         width: calc(12em + 17vw);
     }
 
     #senhor-sentado {
+        margin: 4px 0px 0px -296px;
+    }
 
-        margin: 4px 0px 0px -283px;
+    .apresentacao-site {
+        margin: 60px 0px 0px 15px;
     }
 }
 
-@media (min-width: 800px) {
-    .apresentacao-site{
-        margin: 30px 0px 0px 73px;
+@media (min-width: 769px) {
+    .apresentacao-site {
+        font-size: inherit;
+        width: 50%;
     }
-}
 
-@media (min-width: 900px) {
+    .apresentacao-titulo {
+        font-size: 40px;
+    }
+
+    .apresentacao-subtitulo {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .container-saiba-mais {
+        margin-top: 30px;
+        margin-bottom: 100px;
+        padding: 5px 0px 0px 19px;
+    }
+
+    .senhor-sentado {
+        width: calc(13em + 17vw);
+        margin: -429px 0px 0px 0px;
+    }
 
     #senhor-sentado {
-        margin: 6px 0px 0px -322px;
+        margin: 2px 0px 0px -332px;
+    }
 
+    #saiba-mais {
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width: 900px) {
+    .apresentacao-site {
+        margin: 60px 0px 0px 50px;
+        max-width: 480px;
+    }
+
+    #senhor-sentado {
+        margin: 6px 0px 0px -352px;
+    }
+}
+
+@media (min-width: 930px) {
+    .senhor-sentado {
+        width: calc(15em + 15vw);
+    }
+
+    #senhor-sentado {
+        margin: 6px 0px 0px -384px;
+    }
+
+    .apresentacao-site {
+        margin: 100px 0px 0px 50px;
     }
 }
 
 @media (min-width: 1150px) {
-
     #senhor-sentado {
-        margin: 5px 0px 0px -384px;
+        margin: 6px 0px 0px -414px;
     }
 }
