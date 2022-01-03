@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/conteudos.css" />
     <link rel="stylesheet" href="./css/aprendaMais.css" />
     <link rel="stylesheet" href="./css/area-verde.css" />
+    <link rel="stylesheet" href="./css/area-verde-mobile.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
       rel="stylesheet"
@@ -174,63 +175,84 @@
         <div class="tipo-investidor__titulo">
           Descubra qual tipo de investidor você é
         </div>
-        <!-- Cards da Section [Descubra Seu Tipo de Investidor]  -->
-        <div class="tipo-investidor__cards">
-          <!-- CARD 01 - PERFIL CONSERVADOR -->
-          <div class="tipo-investidor__cards__individual-card">
-            <h2 class="tipo-investidor__cards__individual-card__titulo">
-              Conservador
-            </h2>
-            <div class="tipo-investidor__cards__individual-card__imagem">
-              <img
-                src="./assets/Imagens/5_conservador.svg"
-                alt="Perfil Conservador"
-              />
+        <div class="slider-container">
+          <div class="slider">
+            <!-- Cards da Section [Descubra Seu Tipo de Investidor]  -->
+            <div class="tipo-investidor__cards">
+              <!-- CARD 01 - PERFIL CONSERVADOR -->
+              <div
+                class="tipo-investidor__cards__individual-card"
+                id="slides__1"
+              >
+                <h2 class="tipo-investidor__cards__individual-card__titulo">
+                  Conservador
+                </h2>
+                <div class="tipo-investidor__cards__individual-card__imagem">
+                  <img
+                    src="./assets/Imagens/5_conservador.svg"
+                    alt="Perfil Conservador"
+                  />
+                </div>
+                <p class="tipo-investidor__cards__individual-card__descricao">
+                  A sua prioridade é sempre conservar o poder de compra do seu
+                  dinheiro, ou seja, ficar sempre acima da inflação. No geral,
+                  os conservadores são pessoas que estão começando a investir ou
+                  que têm objetivos financeiros no curto ou médio prazo.
+                </p>
+              </div>
+
+              <!-- CARD 02 - PERFIL MODERADO -->
+              <div
+                class="tipo-investidor__cards__individual-card"
+                id="slides__2"
+              >
+                <h2 class="tipo-investidor__cards__individual-card__titulo">
+                  Moderado
+                </h2>
+                <div class="tipo-investidor__cards__individual-card__imagem">
+                  <img
+                    src="./assets/Imagens/6_moderado.svg"
+                    alt="Perfil Moderado"
+                  />
+                </div>
+                <p class="tipo-investidor__cards__individual-card__descricao">
+                  A sua prioridade é sempre conservar o poder de compra do seu
+                  dinheiro, ou seja, ficar sempre acima da inflação. No geral,
+                  os conservadores são pessoas que estão começando a investir ou
+                  que têm objetivos financeiros no curto ou médio prazo.
+                </p>
+              </div>
+
+              <!-- CARD 03 - PERFIL AGRESSIVO -->
+              <div
+                class="tipo-investidor__cards__individual-card"
+                id="slides__3"
+              >
+                <h2 class="tipo-investidor__cards__individual-card__titulo">
+                  Agressivo
+                </h2>
+                <div class="tipo-investidor__cards__individual-card__imagem">
+                  <img
+                    src="./assets/Imagens/7_agressivo.svg"
+                    alt="Perfil Agressivo"
+                  />
+                </div>
+                <p class="tipo-investidor__cards__individual-card__descricao">
+                  A sua prioridade é sempre conservar o poder de compra do seu
+                  dinheiro, ou seja, ficar sempre acima da inflação. No geral,
+                  os conservadores são pessoas que estão começando a investir ou
+                  que têm objetivos financeiros no curto ou médio prazo.
+                </p>
+              </div>
             </div>
-            <p class="tipo-investidor__cards__individual-card__descricao">
-              A sua prioridade é sempre conservar o poder de compra do seu
-              dinheiro, ou seja, ficar sempre acima da inflação. No geral, os
-              conservadores são pessoas que estão começando a investir ou que
-              têm objetivos financeiros no curto ou médio prazo.
-            </p>
-          </div>
-          <!-- CARD 02 - PERFIL MODERADO -->
-          <div class="tipo-investidor__cards__individual-card">
-            <h2 class="tipo-investidor__cards__individual-card__titulo">
-              Moderado
-            </h2>
-            <div class="tipo-investidor__cards__individual-card__imagem">
-              <img
-                src="./assets/Imagens/6_moderado.svg"
-                alt="Perfil Moderado"
-              />
-            </div>
-            <p class="tipo-investidor__cards__individual-card__descricao">
-              A sua prioridade é sempre conservar o poder de compra do seu
-              dinheiro, ou seja, ficar sempre acima da inflação. No geral, os
-              conservadores são pessoas que estão começando a investir ou que
-              têm objetivos financeiros no curto ou médio prazo.
-            </p>
-          </div>
-          <!-- CARD 01 - PERFIL AGRESSIVO -->
-          <div class="tipo-investidor__cards__individual-card">
-            <h2 class="tipo-investidor__cards__individual-card__titulo">
-              Agressivo
-            </h2>
-            <div class="tipo-investidor__cards__individual-card__imagem">
-              <img
-                src="./assets/Imagens/7_agressivo.svg"
-                alt="Perfil Agressivo"
-              />
-            </div>
-            <p class="tipo-investidor__cards__individual-card__descricao">
-              A sua prioridade é sempre conservar o poder de compra do seu
-              dinheiro, ou seja, ficar sempre acima da inflação. No geral, os
-              conservadores são pessoas que estão começando a investir ou que
-              têm objetivos financeiros no curto ou médio prazo.
-            </p>
           </div>
         </div>
+        <!-- Sub-Titulo -->
+        <div class="tipo-investidor__sub-titulo">
+          Realize o nosso teste aqui!
+        </div>
+        <!-- Botão [RESPONDER] -->
+        <button class="tipo-investidor__botão">Responder</button>
       </section>
 
       <section class="conteudos">

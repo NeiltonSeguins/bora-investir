@@ -1,0 +1,93 @@
+@media (max-width: 1080px) {
+  /* **************************** */
+  /* Section [Seja um Investidor] */
+  /* **************************** */
+
+  .seja-investidor__cards__divisor_baixo {
+    margin-top: 6rem;
+  }
+
+  .seja-investidor__titulo {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .individual-card__title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .individual-card__descricao {
+    font-size: 16px;
+    line-height: 18px;
+
+    margin-top: 20px;
+  }
+
+  .seja-investidor__cards {
+    padding: 5rem;
+  }
+
+  /* ***************************************** */
+  /* Section [Descubra Seu Tipo de Investidor] */
+  /* ***************************************** */
+
+  .tipo-investidor__titulo {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .tipo-investidor__cards__individual-card__titulo {
+    font-size: 16px;
+  }
+
+  .tipo-investidor__cards__individual-card__descricao {
+    font-size: 13px;
+  }
+
+  .tipo-investidor__sub-titulo,
+  .tipo-investidor__botão {
+    font-size: 25px;
+  }
+
+  .tipo-investidor__cards {
+    padding: 0 5rem;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 720px) {
+  /* **************************** */
+  /* Section [Seja um Investidor] */
+  /* **************************** */
+  .seja-investidor__cards {
+    padding: 2rem;
+  }
+
+  .seja-investidor__titulo {
+    font-size: 30px;
+    line-height: 35px;
+
+    margin-bottom: 2rem;
+  }
+
+  .seja-investidor__cards__divisor_baixo {
+    margin-top: 4rem;
+  }
+  /* ***************************************** */
+  /* Section [Descubra Seu Tipo de Investidor] */
+  /* ***************************************** */
+  .tipo-investidor__titulo {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .tipo-investidor__cards {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .tipo-investidor__cards__individual-card {
+    width: 90%;
+  }
+}
