@@ -1,11 +1,12 @@
 .graf__div--principal {
   background-color: #eaeaea;
+  padding-bottom: 25px;
 }
 
 .graficos {
   background-color: #ffffff;
   width: 1200px;
-  margin: 30px auto;
+  margin: 20px auto;
   border-radius: 40px;
 }
 
@@ -66,6 +67,7 @@
 }
 
 .graficos__button--menos {
+  display: none;
   background-color: #57cc99;
   border-radius: 100px;
   border: none;
@@ -78,8 +80,8 @@
   cursor: pointer;
 }
 
-#show-graphs{
-  display: flex;
+#show-graphs {
+  display: none;
   flex-direction: column;
   align-items: center;
 }

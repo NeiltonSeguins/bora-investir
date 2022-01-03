@@ -15,6 +15,7 @@
     width: 890px;
     margin-top: 3rem;
     text-align: left;
+    margin-bottom: 2.2rem;
 }
 
 .color {
@@ -37,8 +38,10 @@
     font-family: 'Rubik';
     font-size: 24px;
     font-weight: 500;
-    color: #23013D;   
+    color: #23013D;  
+    cursor: pointer; 
     align-self: self-end;
+    margin-bottom: 20px;
 }
 
 /* @media (min-width: 280px) {
