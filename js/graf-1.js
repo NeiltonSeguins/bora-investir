@@ -1,4 +1,4 @@
-let ctx = document.getElementById('grafico1').getContext('2d')
+let ctx = document.getElementById('graf-1').getContext('2d')
 
 let grafico = new Chart(ctx, {
     type: 'pie',

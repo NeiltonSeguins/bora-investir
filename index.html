@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/conteudos.css" />
     <link rel="stylesheet" href="./css/aprendaMais.css" />
     <link rel="stylesheet" href="./css/area-verde.css" />
+    <link rel="stylesheet" href="./css/graficos.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
       rel="stylesheet"
@@ -81,7 +82,7 @@
     </header>
 
     <main class="main">
-      <div style="background-color: #eaeaea">
+      <div class="graf__div--principal">
         <section class="site-info">
           <h2 class="info-subtitulo">
             O mercado financeiro ainda é um
@@ -94,10 +95,43 @@
             situação a Bora Investir foi a procura de alguns dados que nos
             ajudaram a entender melhor o cenário do maranhense.
           </p>
-          <div class="container-mais">
-            <a href="#" class="mais">Mais</a>
-          </div>
+          <button class="container-mais">Mais</button>
         </section>
+
+        <div id="show-graphs">
+          <!-- Graficos  -->
+          <section class="graficos animate">
+            <div class="graficos__conteudo">
+              <div class="graficos__buttons">
+                <div class="graficos__img">
+                  <img
+                    id="seta-esquerda"
+                    src="./assets/Icones/arrow-left.svg"
+                    alt=""
+                  />
+                  <img
+                    id="seta-direita"
+                    src="./assets/Icones/arrow-right.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <h2 class="graficos__titulo">
+                Qual é em média a idade do investidor maranhense?
+              </h2>
+            </div>
+            <div class="graficos__info">
+              <h3 class="graficos__info--h3">
+                Adultos com idade entre <span>25 a 34 anos</span> são os
+                principais investirores.
+              </h3>
+              <div class="graficos__grafico">
+                <canvas id="graf-1"></canvas>
+              </div>
+            </div>
+          </section>
+        </div>
+        <button class="graficos__button--menos">Menos</button>
       </div>
 
       <!-- ******************************************************************************** -->
@@ -212,7 +246,7 @@
               têm objetivos financeiros no curto ou médio prazo.
             </p>
           </div>
-          <!-- CARD 01 - PERFIL AGRESSIVO -->
+          <!-- CARD 03 - PERFIL AGRESSIVO -->
           <div class="tipo-investidor__cards__individual-card">
             <h2 class="tipo-investidor__cards__individual-card__titulo">
               Agressivo
@@ -353,6 +387,17 @@
     </main>
 
     <footer class="footer"></footer>
+
+    <!-- Bibliotecas -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-dsv@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.0/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+
+    <!-- Gráficos -->
+    <script type="text/javascript" src="js/graf-1.js"></script>
+    <script type="text/javascript" src="js/graf-2.js"></script>
 
     <script src="./js/app.js"></script>
     <script src="./js/conteudos.js"></script>
