@@ -1,3 +1,7 @@
+.playlist__main {
+    background-color: #EEE;
+}
+
 .cabecalho.playlist__cabecalho {
     height: 100px;
 }
@@ -6,6 +10,10 @@
     align-items: center;
     height: 100px;
     justify-content: space-around;
+}
+
+.playlist__nav-links {
+    top: 3vh
 }
 
 #playlist-logo {
@@ -26,7 +34,6 @@
 }
 
 .youtube-playlist__lista {
-    background-color:#FFF;
     background-image: url('../assets/Imagens/Group 47.png');
     background-repeat: repeat;
     background-size: contain;
@@ -35,7 +42,7 @@
     border-right: solid 2px #80ED99;
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 25%;
     padding-bottom: 50px;
 }
 
@@ -73,21 +80,77 @@
     transition: 5s;
 }
 
-.youtube-playlist__container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.youtube-playlist__container {
+    height: 100vh;
+    padding: 0 12%;
+    width: 75%;
 }
 
 .youtube-playlist__video {
-    height: 400px;
-    width: 700px;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.youtube-playlist__video iframe, .youtube-playlist__video object,
+ .youtube-playlist__video embed, .youtube-playlist__video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .youtube-playlist__video__titulo {
     color: #23013D;
     font-family: 'Roboto', sans-serif;
-    width: 700px;
     margin: 50px 0 20px;
+}
+
+@media (max-width: 768px) {
+    .youtube-playlist {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .youtube-playlist__container {
+        width: 100%;
+        height: 100%;
+        margin-top: 50px;
+    }
+    
+    .youtube-playlist__lista {
+        width: 100%;
+        padding: 0 12%;
+        border: 0;
+    }
+
+    .playlist__titulo {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    #playlist-logo {
+        width: 115px;
+    }
+
+    .youtube-playlist__container {
+        margin-top: 30px;
+    }
+
+    .playlist__titulo {
+        font-size: 18px;
+    }
+
+    .youtube-playlist__video__titulo {
+        font-size: 18px;
+    }
 }
