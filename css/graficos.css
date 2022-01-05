@@ -71,15 +71,19 @@
   background-color: #57cc99;
   border-radius: 100px;
   border: none;
-  width: 187px;
-  height: 64px;
-  margin: 50px auto;
-  font-size: 24px;
-  font-family: "Rubik";
+  
+  width: calc(4em + 2vw);
+  height: calc(1.5em + 1.6vh);  margin: 50px auto;
+
   color: #ffffff;
   cursor: pointer;
 }
 
+@media (min-width: 769px){
+    .graficos__button--menos{
+      font-size: 18px;
+    }
+}
 #show-graphs {
   display: flex;
   flex-direction: column;
