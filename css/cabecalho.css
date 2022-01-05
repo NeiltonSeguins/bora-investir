@@ -22,14 +22,16 @@
     #cadastre-se {
         background: #80ED99;
         border-radius: 100px;
-        height: 30px;
+        height: calc(1.5em + 2vh);
+        width: 7em;
     }
 
     #entrar {
         border: 1px solid #80ED99;
         box-sizing: border-box;
         border-radius: 100px;
-        height: 30px;
+        height: calc(1.5em + 2vh);
+        width: 7em;
     }
 }
 
