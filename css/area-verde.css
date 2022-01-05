@@ -74,7 +74,7 @@
 }
 
 .seja-investidor__cards__divisor_baixo {
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 
 .seja-investidor__cards__divisor_baixo img {
@@ -158,4 +158,39 @@
   line-height: 23px;
   letter-spacing: 0em;
   text-align: center;
+}
+.tipo-investidor__sub-titulo {
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  color: #23013d;
+
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.tipo-investidor__botão {
+  height: 64px;
+  width: 288px;
+  background: none;
+  background-color: #23013d;
+  border-radius: 100px;
+
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #eaeaea;
+
+  margin-bottom: 5rem;
+
+  cursor: pointer;
 }
