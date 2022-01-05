@@ -28,6 +28,7 @@
 }
 
 .aprenda-mais__item {
+    cursor: pointer;
     margin: 15px 0;
     width: 15%;
 }
