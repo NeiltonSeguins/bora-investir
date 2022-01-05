@@ -20,12 +20,15 @@
 
 
 .container-mais {
+    font-family: 'Rubik';
     background: #57CC99;
     border-radius: 100px;
     align-self: self-end;
     width: calc(4em + 2vw);
-    padding: 5px 0px 0px 18px;
     height: calc(1.5em + 1.6vh);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
 
 }
 
@@ -49,7 +52,7 @@
         font-size: 20px;
     }
 
-    #mais {
+    .container-mais {
         font-size: 18px;
     }
 }

@@ -23,7 +23,7 @@
 
     width: calc(8em + 2vw);
 
-    height: calc(1.5em + 1.6vh);
+    height: calc(1.5em + 2vh);
 }
 
 .senhor-sentado {
@@ -63,14 +63,14 @@
 
     #saiba-mais {
 
-        padding: 0px 0px 0px 6px;
+        padding: 0px 0px 0px 10px;
         font-family: 'Rubik';
         font-size: calc(1.1em + 0.4vw);
 
     }
 
     .container-saiba-mais {
-        padding: 3px 0px 0px 0px;
+        padding: 6px 0px 0px 0px;
     }
 }
 
