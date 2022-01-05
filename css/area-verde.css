@@ -15,8 +15,8 @@
 .seja-investidor__titulo {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 64px;
-  line-height: 75px;
+  font-size: 40px;
+  line-height: 55px;
 
   margin-bottom: 5rem;
 }
@@ -48,8 +48,8 @@
 .individual-card__title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 25px;
+  line-height: 30px;
 
   color: #50049a;
 }
@@ -57,8 +57,8 @@
 .individual-card__descricao {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 25px;
 
   margin-top: 40px;
 }
@@ -98,8 +98,8 @@
 .tipo-investidor__titulo {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 64px;
-  line-height: 75px;
+  font-size: 40px;
+  line-height: 55px;
   color: rgba(35, 1, 61, 1);
 
   width: 50%;
@@ -161,10 +161,10 @@
 }
 .tipo-investidor__sub-titulo {
   font-family: Roboto;
-  font-size: 36px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 500;
-  line-height: 42px;
+  line-height: 35px;
   letter-spacing: 0em;
   text-align: center;
 
@@ -180,12 +180,12 @@
   background: none;
   background-color: #23013d;
   border-radius: 100px;
-  border:none;
-  font-family: 'Roboto';
-  font-size: 30px;
+  border: none;
+  font-family: "Roboto";
+  font-size: 25px;
   font-style: normal;
   font-weight: 700;
-  line-height: 42px;
+  line-height: 35px;
   letter-spacing: 0em;
   text-align: center;
   color: #eaeaea;
@@ -193,4 +193,8 @@
   margin-bottom: 5rem;
 
   cursor: pointer;
+}
+
+.tipo-investidor__botão:hover {
+  opacity: 0.8;
 }
