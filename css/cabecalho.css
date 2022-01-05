@@ -1,10 +1,12 @@
 .cabecalho {
-    height: 100vh;
     background-color: #23013D;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 @media (min-width: 200px) {
+    .cabecalho {
+        height: 100vh;
+    }
     #logo {
         width: 115px;
         margin: 15px 0px 0px 10px;
@@ -31,11 +33,17 @@
     }
 }
 
-
-@media (min-width: 800px) {
+@media (min-width: 769px) {
+    .cabecalho {
+        height: auto;
+    }
     #logo {
         width: 160px;
-        margin: 100px 0px 0px 70px;
     }
+}
 
+@media (min-width: 900px) {
+    #logo {
+        margin: 15px 0px 0px 50px
+    }
 }
