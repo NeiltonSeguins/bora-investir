@@ -1,0 +1,191 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Tipo de Investidor</title>
+  <!-- trabalho base: https://github.com/tluis9/surveySecurity -->
+  
+  <link rel="stylesheet" href="./css/formulario.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="two-thirds column">
+        <h2>Tipo de Investidor</h2>
+
+        <div id="progress_bar"></div>
+        <form class="questions_box">
+
+          <div id="question-1">
+            <h2>Questão 1</h2>
+            <h3>Por quanto tempo você pretende deixar seu dinheiro investido?</h3>
+            <input id="question-1-answer-a" type="radio" name="favelang" value=0> Menos de 6 meses<br>
+            <input id="question-1-answer-b" type="radio" name="favelang" value=2> Entre 6 meses e 1 ano<br>
+            <input id="question-1-answer-c" type="radio" name="favelang" value=3> Entre 1 ano e 3 anos<br>
+            <input id="question-1-answer-d" type="radio" name="favelang" value=4> Acima de 3 anos<br>
+            <div id="submit1" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-2">
+            <h2>Questão 2</h2>
+            <h3>Qual o objetivo desse investimento?</h3>
+            <input id="question-2-answer-a" type="radio" name="favelang" value="0"> Preservação do capital para não
+            perder valor ao longo do tempo,
+            assumindo baixos riscos de perdas<br>
+            <input id="question-2-answer-b" type="radio" name="favelang" value="2"> Aumento gradual do capital ao longo
+            do tempo, assumindo riscos
+            moderados<br>
+            <input id="question-2-answer-c" type="radio" name="favelang" value="4"> Aumento do capital acima da taxa de
+            retorno média do mercado, mesmo
+            que isso implique assumir riscos de perdas elevadas<br>
+            <input id="question-2-answer-d" type="radio" name="favelang" value="5"> Obter no curto prazo retornos
+            elevados e significativamente acima da taxa
+            de retorno média do mercado, assumindo riscos elevados<br>
+            <div id="submit2" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-3">
+            <h2>Questão 3</h2>
+            <h3>Qual das alternativas melhor classifica sua formação e experiência com
+              o mercado financeiro?</h3>
+            <input id="question-3-answer-a" type="radio" name="favelang" value="0"> Não possuo formação acadêmica ou
+            conhecimento do mercado financeiro <br>
+            <input id="question-3-answer-b" type="radio" name="favelang" value="1"> Possuo formação acadêmica na área
+            financeira, mas não tenho experiência
+            com o mercado financeiro<br>
+            <input id="question-3-answer-c" type="radio" name="favelang" value="2"> Possuo formação acadêmica em outra
+            área, mas possuo conhecimento do
+            mercado financeiro<br>
+            <input id="question-3-answer-d" type="radio" name="favelang" value="4"> Possuo formação acadêmica na área
+            financeira ou pleno conhecimento do
+            mercado financeiro<br>
+            <div id="submit3" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-4">
+            <h2>Questão 4</h2>
+            <h3>Considerando seus rendimentos regulares, qual a porcentagem você 
+              pretende reservar para aplicações financeiras?</h3>
+            <input id="question-4-answer-a" type="radio" name="favelang" value="0"> No máximo 25%<br>
+            <input id="question-4-answer-b" type="radio" name="favelang" value="2"> Entre 25,01 e 50%<br>
+            <input id="question-4-answer-c" type="radio" name="favelang" value="4"> Acima de 50% <br>
+            <div id="submit4" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-5">
+            <h2>Questão 5</h2>
+            <h3>Caso as suas aplicações sofressem uma queda superior a 30%, 
+              o que você faria?</h3>
+            <input id="question-5-answer-a" type="radio" name="favelang" value="0"> Resgataria toda a aplicação e aplicaria na poupança<br>
+            <input id="question-5-answer-b" type="radio" name="favelang" value="2"> Manteria aplicação aguardando uma melhora do mercado<br>
+            <input id="question-5-answer-c" type="radio" name="favelang" value="4"> Aumentaria a aplicação para aproveitar as oportunidades do mercado<br>
+            <div id="submit5" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+          
+          <div id="question-6">
+            <h2>Questão 6</h2>
+            <h3>Como está distribuído o seu patrimônio? </h3>
+            <input id="question-6-answer-a" type="radio" name="favelang" value="0"> Meu patrimônio não está aplicado ou está todo aplicado em renda fixa e/ou 
+            imóveis <br>
+            <input id="question-6-answer-b" type="radio" name="favelang" value="2"> Menos de 25% em renda variável e o restante em renda fixa e/ou imóveis<br>
+            <input id="question-6-answer-c" type="radio" name="favelang" value="3"> Entre 25,01 e 50% aplicado em renda variável e o restante em renda fixa 
+            e/ou imóveis<br>
+            <input id="question-6-answer-d" type="radio" name="favelang" value="4"> Acima de 50% em renda variável<br>
+            <div id="submit6" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-7">
+            <h2>Questão 7</h2>
+            <h3>Em relação as aplicações e rendimentos, em qual dessas situações você 
+              se enquadra? </h3>
+            <input id="question-7-answer-a" type="radio" name="favelang" value="0"> Conto com o rendimento dessas aplicações para complementar minha 
+            renda mensal<br>
+            <input id="question-7-answer-b" type="radio" name="favelang" value="2"> Eventualmente posso resgatar parte das aplicações para fazer frente aos 
+            meus gastos. Contudo, não tenho intenção de resgatar no curto prazo e 
+            pretendo fazer aplicações regulares<br>
+            <input id="question-7-answer-c" type="radio" name="favelang" value="3"> Não tenho intenção de resgatar no curto prazo, mas não pretendo realizar 
+            novas aplicações<br>
+            <input id="question-7-answer-d" type="radio" name="favelang" value="4"> Não tenho intenção de resgatar no curto prazo e ainda pretendo fazer 
+            aplicações regulares<br>
+            <div id="submit7" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+          <div id="question-8">
+            <h2>Questão 8</h2>
+            <h3>Indique em quais aplicações listadas abaixo você já investiu e qual a 
+              frequência nos últimos dois anos. Pode assinalar mais do que uma 
+              alternativa.</h3>
+              <figure> 
+                <img src="./assets/Imagens/8.png">
+              </figure>
+            <input id="question-8-answer-a" type="radio" name="favelang" value="1"> Entre 0 e 1 ponto<br>
+            <input id="question-8-answer-b" type="radio" name="favelang" value="2"> Entre 2 e 4 pontos<br>
+            <input id="question-8-answer-c" type="radio" name="favelang" value="4"> Acima de 5 pontos<br>
+            <div id="submit8" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+          <div id="question-9">
+            <h2>Questão 9</h2>
+            <h3>Tomando por base as respostas da questão anterior, informar o volume 
+              aproximado que foi destinado a cada operação no período. </h3>
+              <figure>
+                <img src="./assets/Imagens/9.png">
+              </figure>
+            <input id="question-9-answer-a" type="radio" name="favelang" value="1"> 1 ponto<br>
+            <input id="question-9-answer-b" type="radio" name="favelang" value="2"> Entre 2 e 6 pontos<br>
+            <input id="question-9-answer-c" type="radio" name="favelang" value="4"> Acima de 7 pontos<br>
+            <div id="submit9" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+          <div id="question-10">
+            <h2>Questão 10</h2>
+            <h3>Qual sua faixa de renda mensal média?</h3>
+            <input id="question-10-answer-a" type="radio" name="favelang" value="0"> Até R$ 1.000 <br>
+            <input id="question-10-answer-b" type="radio" name="favelang" value="1"> De R$ 1.001 até R$ 5.000 <br>
+            <input id="question-10-answer-c" type="radio" name="favelang" value="2"> De R$ 5.001 até R$ 10.000 <br>
+            <input id="question-10-answer-d" type="radio" name="favelang" value="4"> Acima de R$ 10.000<br>
+            <div id="submit10" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+          <div id="question-11">
+            <h2>Questão 11</h2>
+            <h3>Qual o valor aproximado do seu patrimônio?</h3>
+            <input id="question-11-answer-a" type="radio" name="favelang" value="0"> Até R$ 10.000 <br>
+            <input id="question-11-answer-b" type="radio" name="favelang" value="1"> De R$ 10.001 até R$ 100.000 <br>
+            <input id="question-11-answer-c" type="radio" name="favelang" value="2"> De R$ 100.001 até R$ 500.000<br>
+            <input id="question-11-answer-d" type="radio" name="favelang" value="4"> De R$ 500.001 até R$ 1.000.000<br>
+            <input id="question-11-answer-e" type="radio" name="favelang" value="5"> Acima de R$ 1.000.001<br>
+            <div id="submit11" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-12">
+            <h2>Obrigado por responder a pesquisa!</h2>
+            <h3>Seu score é: </h3>
+            <h1 id=printtotalscore></h1>
+            <p id=printscoreinfo></p>
+            <div class="button"><a href="index.html" style="text-decoration: none;color:white;">Voltar</a></div>
+        </div>
+          
+            
+
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/formulario.js"></script>
+</body>
+
+</html>
