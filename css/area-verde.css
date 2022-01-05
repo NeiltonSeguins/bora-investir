@@ -180,9 +180,9 @@
   background: none;
   background-color: #23013d;
   border-radius: 100px;
-
-  font-family: Roboto;
-  font-size: 36px;
+  border:none;
+  font-family: 'Roboto';
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 42px;
