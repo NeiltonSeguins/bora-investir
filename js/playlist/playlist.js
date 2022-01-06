@@ -1,10 +1,46 @@
 import { data } from './data.js';
 import { getEmbedLink, getThumb} from './youtube.js';
 
-function setAtivo(index, item) {
+function setVideo(index) {
+    iframe.src = getEmbedLink(videos[index].id, true);
+    setAtivo(index);
+    sleep(1000);
+    tituloVideo.innerHTML = `${index + 1}. ${videos[index].titulo}`;
+}
+
+function setAtivo(index) {
+    itens.forEach(item => {
+        item.style.backgroundColor = null;
+        item.style.border = 'solid 2px #80ED99';
+    });
     itens[index].classList.add('.youtube-playlist__lista__item--ativo');
     itens[index].style.backgroundColor = 'rgba(128, 237, 153, 60%)';
     itens[index].style.border = 'solid 2px #23013D';
+}
+
+function avancar(index) {
+    if (index + 1 < videos.length) {
+        setVideo(index + 1);
+        return true;
+    }
+    return false;
+}
+
+function voltar(index) {
+    if (index - 1 >= 0) {
+        setVideo(index - 1);
+        return true;
+    }
+    return false;
+}
+
+function sleep(milliseconds) {
+    //Fonte: https://www.sitepoint.com/delay-sleep-pause-wait/
+    const date = Date.now();
+    let currentDate = null;
+    do {
+      currentDate = Date.now();
+    } while (currentDate - date < milliseconds);
 }
 
 let index = 0;
@@ -25,10 +61,26 @@ const lista = document.querySelector('.youtube-playlist__lista');
 const tituloVideo = document.querySelector('.youtube-playlist__video__titulo');
 const iframe = document.querySelector('.youtube-playlist__video').querySelector('iframe');
 
+iframe.src = getEmbedLink(videos[index].id, false);
 tituloPlaylist.innerHTML = playlist.titulo;
 tituloVideo.innerHTML = `${index + 1}. ${videos[index].titulo}`;
 
-iframe.src = getEmbedLink(videos[index].id, false);
+const botaoEsquerdo = document.getElementById('playlist-left-button');
+const botaoDireito = document.getElementById('playlist-right-button');
+
+botaoDireito.addEventListener('click', () => {
+    if (avancar(index)) {
+        index++;
+    }
+});
+
+botaoEsquerdo.addEventListener('click', () => {
+    if (voltar(index)) {
+        index--;
+    }
+})
+
+
 
 for (let i=0; i<videos.length; i++) {
     const video = document.createElement('div');
@@ -43,20 +95,8 @@ for (let i=0; i<videos.length; i++) {
     lista.appendChild(video);
     
     video.addEventListener('click', () => {
-        tituloVideo.innerHTML = `${i + 1}. ${videos[i].titulo}`;
-        iframe.src = getEmbedLink(videos[i].id, true);
-        
-        const itens = document.querySelectorAll('.youtube-playlist__lista__item');
-
-        itens.forEach(item => {
-            item.style.backgroundColor = null;
-            item.style.border = 'solid 2px #80ED99';
-        });
-
-        setAtivo(i, itens);
-
+        setVideo(i);
         index = i;
-        localStorage.setItem('index', index);
     });
 }
 
