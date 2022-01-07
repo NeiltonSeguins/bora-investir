@@ -80,8 +80,6 @@ botaoEsquerdo.addEventListener('click', () => {
     }
 })
 
-
-
 for (let i=0; i<videos.length; i++) {
     const video = document.createElement('div');
     video.classList.add('youtube-playlist__lista__item');
