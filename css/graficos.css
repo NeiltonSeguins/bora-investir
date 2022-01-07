@@ -5,13 +5,13 @@
 
 .graficos {
   background-color: #ffffff;
-  width: 1200px;
-  margin: 20px auto;
+  width: 75%;
   border-radius: 40px;
+  border: 2px solid #E1E1E1;
 }
 
 .graficos__conteudo {
-  padding: 50px;
+  padding: 50px 50px 20px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -24,46 +24,43 @@
 }
 
 #seta-esquerda {
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 #seta-direita {
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .graficos__titulo {
-  font-size: 48px;
+  font-size: 35px;
   font-family: "Roboto";
   font-weight: 700;
   color: #23013d;
   margin-left: 80px;
-  width: 596px;
+  width: 70%;
 }
 
 .graficos__info {
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
   padding-bottom: 50px;
 }
 
 .graficos__info--h3 {
-  font-size: 36px;
+  font-size: 30px;
   font-family: "Roboto";
-  font-weight: 700;
+  font-weight: 500;
   color: #000000;
-  width: 475px;
-  height: 126px;
-  padding-left: 50px;
+  width: 40%;
 }
 
 .graficos__info--h3 span {
   color: #50049a;
 }
 
-#graf-1 {
-  width: 575px;
-  height: 575px;
+.graficos__grafico {
+  width: 35%;
 }
 
 .graficos__button--menos {
@@ -79,17 +76,78 @@
   cursor: pointer;
 }
 
-@media (min-width: 769px){
-    .graficos__button--menos{
-      font-size: 18px;
-    }
-}
 #show-graphs {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #EAEAEA;
 }
 
 .animate{
   display: none;
+}
+
+@media (max-width: 768px) {
+    .graficos__button--menos{
+      font-size: 18px;
+    }
+
+    #seta-esquerda {
+      width: 50px;
+    }
+
+    #seta-direita {
+      width: 70px;
+    }
+
+    .graficos__conteudo {
+      flex-direction: column;
+      padding: 30px 30px 0;
+    }
+
+    .graficos__titulo {
+      margin: 20px 0;
+      font-size: 22px;
+      width: 90%;
+      text-align: center;
+    }
+
+    .graficos__info {
+      flex-direction: column;
+    }
+
+    .graficos__info--h3 {
+      font-size: 18px;
+      width: 80%;
+      margin: 0;
+      text-align: center;
+    }
+
+    .graficos__grafico {
+      margin-top: 10px;
+      width: 70%;
+    }
+}
+
+@media (max-width: 492px) {
+  .graficos__grafico {
+    width: 95%;
+  }
+
+  .graficos {
+    width: 95%;
+  }
+
+  .graficos__conteudo {
+    padding: 20px 10px 0;
+  }
+
+  .graficos__titulo {
+    width: 90%;
+    font-size: 18px;
+  }
+
+  .graficos__info--h3 {
+    font-size: 16px;
+  }
 }
