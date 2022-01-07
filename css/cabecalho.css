@@ -5,8 +5,9 @@
 
 @media (min-width: 200px) {
     .cabecalho {
-        height: 100vh;
+        height: 85vh;
     }
+
     #logo {
         width: 115px;
         margin: 15px 0px 0px 10px;
@@ -14,31 +15,34 @@
 }
 
 @media (min-width: 600px) {
-    .nav-links li {
-        width: 115px;
-        padding-top: 5px;
-    }
-
-    #cadastre-se {
+    .cadastre-se {
         background: #80ED99;
         border-radius: 100px;
-        height: calc(1.5em + 2vh);
-        width: 7em;
+        height: calc(1.5em + 4vh);
+        width: 8em;
     }
 
-    #entrar {
+    .entrar {
         border: 1px solid #80ED99;
         box-sizing: border-box;
         border-radius: 100px;
-        height: calc(1.5em + 2vh);
-        width: 7em;
+        height: calc(1.5em + 4vh);
+        width: 8em;
     }
+    #cadastre-se{
+        vertical-align: -webkit-baseline-middle;
+    }
+    #entrar{
+        vertical-align: -webkit-baseline-middle;
+    }
+
 }
 
 @media (min-width: 769px) {
     .cabecalho {
-        height: auto;
+        height: 100vh;
     }
+
     #logo {
         width: 160px;
     }

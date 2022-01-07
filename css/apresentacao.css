@@ -1,5 +1,4 @@
 .apresentacao-site {
-    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -22,8 +21,7 @@
     border-radius: 100px;
 
     width: calc(8em + 2vw);
-
-    height: calc(1.5em + 2vh);
+    height: calc(1.5em + 4vh);
 }
 
 .senhor-sentado {
@@ -47,7 +45,7 @@
 @media (min-width: 280px) {
     .senhor-sentado {
         width: calc(9em + 9vw);
-        margin: -250px 0px 0px 0px;
+        margin: -309px 0px 0px 0px;
     }
 
     #senhor-sentado {
@@ -58,15 +56,14 @@
     .apresentacao-site {
         font-size: calc(0.5em + 0.4vw);
         width: 42%;
+        height: 77%;
         margin: 30px 0px 0px 15px;
     }
 
     #saiba-mais {
-
-        padding: 0px 0px 0px 10px;
+        vertical-align: -webkit-baseline-middle;
         font-family: 'Rubik';
         font-size: calc(1.1em + 0.4vw);
-
     }
 
     .container-saiba-mais {
@@ -76,29 +73,23 @@
 
 @media (min-width: 315px) {
     .senhor-sentado {
-        margin: -276px 0px 0px 0px;
-        width: calc(9em + 13vw);
+        margin: -341px -34px 0px 0px;
+        width: calc(12em + 13vw);
     }
 
     #senhor-sentado {
         width: 61vw;
-        margin: 2px 0px 0px -175px;
+        margin: 6px 2px 13px -194px;
     }
 }
 
 
 @media (min-width: 400px) {
     .senhor-sentado {
-        margin: -281px 0px 0px 0px;
-        width: calc(10em + 15vw);
+        margin: -353px -37px -12px -1px;
+        width: calc(12em + 15vw);
     }
 
-    #senhor-sentado {
-        margin: 5px 0px 0px -208px;
-    }
-}
-
-@media (min-width: 450px) {
     #senhor-sentado {
         margin: 5px 0px 0px -223px;
     }
@@ -106,18 +97,27 @@
 
 
 @media (min-width: 600px) {
+
     .senhor-sentado {
-        margin: -290px 0px 0px 0px;
-        width: calc(12em + 17vw);
+        margin: -356px 0px 0px 0px;
+        width: calc(13em + 15vw);
     }
 
     #senhor-sentado {
-        margin: 4px 0px 0px -296px;
+        margin: 4px 0px 0px -271px;
     }
 
+}
+
+@media (min-width: 721px) {
     .apresentacao-site {
-        margin: 60px 0px 0px 15px;
+        margin: 30px 0px 0px 5em;
     }
+
+    #logo {
+        margin: 15px 0px 0px 3.8em;
+    }
+
 }
 
 @media (min-width: 769px) {
@@ -142,12 +142,12 @@
     }
 
     .senhor-sentado {
-        width: calc(13em + 17vw);
-        margin: -429px 0px 0px 0px;
+        width: calc(16em + 13vw);
+        margin: -458px -28px 0px 0px;
     }
 
     #senhor-sentado {
-        margin: 2px 0px 0px -332px;
+        margin: 2px 0px 0px -310px;
     }
 
     #saiba-mais {
@@ -157,32 +157,50 @@
 
 
 @media (min-width: 900px) {
-    .apresentacao-site {
-        margin: 60px 0px 0px 50px;
-        max-width: 480px;
+    .apresentacao-titulo {
+        max-width: 448px;
     }
 
+    .apresentacao-subtitulo {
+        max-width: 448px;
+    }
+
+    #senhor-sentado {
+        margin: 6px 0px 0px -327px;
+    }
+
+    .senhor-sentado {
+
+        margin: -451px 0px 0px 0px;
+    }
+}
+
+
+@media (min-width: 1050px) {
     #senhor-sentado {
         margin: 6px 0px 0px -352px;
     }
-}
 
-@media (min-width: 930px) {
     .senhor-sentado {
-        width: calc(15em + 15vw);
-    }
-
-    #senhor-sentado {
-        margin: 6px 0px 0px -384px;
-    }
-
-    .apresentacao-site {
-        margin: 100px 0px 0px 50px;
+        width: 25em;
+        margin: -465px 0px 0px 0px;
     }
 }
 
-@media (min-width: 1150px) {
-    #senhor-sentado {
-        margin: 6px 0px 0px -414px;
+
+@media (min-width: 1080px) {
+    .apresentacao-site {
+        margin: 40px 0px 0px 10em;
+    }
+
+    #logo {
+        margin: 15px 0px 0px 9.8em;
+    }
+}
+
+@media (min-width: 1344px) {
+    .senhor-sentado {
+        width: 25em;
+        margin: -535px 0px 0px 0px;
     }
 }
