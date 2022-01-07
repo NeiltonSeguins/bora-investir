@@ -3,7 +3,7 @@ import { h2, h3 } from './controller.js';
 
 export const grafico3 = () => {
     h2.innerHTML = "O maranhense conseguiu economizar no último ano?";
-    h3.innerHTML = "Infelizmente <span>a grande maiora</span> dos respondentes <span>não conseguiu economizar</span>";
+    h3.innerHTML = "Infelizmente, <span>a grande maioria</span> dos respondentes <span>não conseguiu economizar</span>";
 
     const ctx = document.getElementById('grafico').getContext('2d');
     const grafico = new Chart(ctx, {

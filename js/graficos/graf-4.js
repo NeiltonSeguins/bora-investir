@@ -3,7 +3,7 @@ import { h2, h3 } from './controller.js';
 
 export const grafico4 = () => {
     h2.innerHTML = "Quais são os tipos de investimentos conhecidos?";
-    h3.innerHTML = "Boa parte dos maranhenses <span>não conhecem</span> nenhum tipo de investimento.";
+    h3.innerHTML = "Boa parte dos maranhenses <span>não conhece</span> nenhum tipo de investimento.";
 
     const ctx = document.getElementById('grafico').getContext('2d');
     const grafico = new Chart(ctx, {
