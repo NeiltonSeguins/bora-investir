@@ -60,11 +60,19 @@ export const grafico4 = () => {
                 barPercentage: 0.7
             }]
         },
+        plugins: [ChartDataLabels],
         options: {
             plugins: {
                 title: {
                     display: true,
                     text: "Tipos de investimentos conhecidos (%)",
+                },
+                datalabels: {
+                    font: {
+                        weight: 'bold'
+                    },
+                    anchor: 'end',
+                    align: 'end',
                 },
                 legend: {
                     position: 'bottom',

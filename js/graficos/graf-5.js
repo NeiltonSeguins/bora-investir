@@ -60,11 +60,19 @@ export const grafico5 = () => {
                 barPercentage: 0.7
             }]
         },
+        plugins: [ChartDataLabels],
         options: {
             plugins: {
                 title: {
                     display: true,
                     text: "Grupo de Investimento por Idade (%)",
+                },
+                datalabels: {
+                    font: {
+                        weight: 'bold'
+                    },
+                    anchor: 'end',
+                    align: 'end',
                 },
                 legend: {
                     position: 'bottom',
