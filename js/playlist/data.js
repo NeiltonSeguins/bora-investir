@@ -1,5 +1,100 @@
 export const data = {
-    "tesouroDireto": {
+    "perfil-conservador": {
+        titulo: "Perfil Conservador",
+        videos: [
+            {
+                titulo: "Investidor conservador | Você é um deles?",
+                id: "hl3dPCsSt6M"
+            },
+            {
+                titulo: "Investimentos para iniciantes: o conservador",
+                id: "m8cpOX9gayA"
+            },
+            {
+                titulo: "3 categorias de ativos para o perfil conservador",
+                id: "13aMsGi4BjA"
+            },
+            {
+                titulo: "5 Opções de investimento para o perfil conservador",
+                id: "K_qsMjC3Y_A"
+            },
+            {
+                titulo: "Carteira de Investimento CONSERVADORA. Como montar sua carteira CONSERVADORA?",
+                id: "zxMrJwZ4Oxw"
+            },
+            {
+                titulo: "PERFIL CONSERVADOR: 5 dicas para diversificar sua carteira de investimentos",
+                id: "AeGlrDpgRFM"
+            },
+        ]
+    },
+    "perfil-moderado": {
+        titulo: "Perfil Moderado",
+        videos: [
+            {
+                titulo: "PERFIL MODERADO EM INVESTIMENTOS",
+                id: "H56NhruLC8w"
+            },
+            {
+                titulo: "Investimentos para iniciantes: o moderado",
+                id: "51gf8-REjE8"
+            },
+            {
+                titulo: "Carteira de Investimentos MODERADA. Como montar sua carteira MODERADA",
+                id: "AV6TjVzUiNk"
+            },
+            {
+                titulo: "Tenho perfil moderado como investidor. Onde posso colocar meu dinheiro?",
+                id: "g1M-vDbbZ6s"
+            },
+            {
+                titulo: "Investindo na Prática - PERFIL MODERADO",
+                id: "XBvvvKbU6Pw"
+            },
+            {
+                titulo: "Perfil Moderado: Onde Investir?",
+                id: "VUkxq7Hhldw"
+            },
+            {
+                titulo: "Quais #investimentos devo ter para uma carteira de perfil MODERADO??",
+                id: "WCuND0LwwGk"
+            },
+            {
+                titulo: "COMO INVESTIR R$ 30.000,00 NA PRÁTICA | PERFIL MODERADO",
+                id: "GcDNc5Nx7rU"
+            },
+        ]
+    },
+    "perfil-arrojado": {
+        titulo: "Perfil Arrojado",
+        videos: [
+            {
+                titulo: "Perfil Arrojado: Onde Investir?",
+                id: "EXmqQw49wV4"
+            },
+            {
+                titulo: "COMO INVESTIR NA PRÁTICA - PERFIL ARROJADO",
+                id: "UbR96qxueUE"
+            },
+            {
+                titulo: "Perfil arrojado e opções de investimento",
+                id: "LMjdh1bsTQY"
+            },
+            {
+                titulo: "Conheça o COE, investimento para quem tem perfil arrojado",
+                id: "1A5hAHIsyp4"
+            },
+            {
+                titulo: "💵👉 PERFIL ARROJADO/AGRESSIVO. Como continuar seguro?",
+                id: "a447P6FrLcI"
+            },
+            {
+                titulo: "COMO INVESTIR R$ 40.000,00 NA PRÁTICA | PERFIL ARROJADO",
+                id: "RTt2c4ex3LE"
+            },
+        ]
+    },
+    "tesouro-direto": {
         titulo: "Tesouro Direto",
         videos: [
             {

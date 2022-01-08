@@ -1,6 +1,6 @@
 const botoes = document.querySelectorAll('.aprenda-mais__item');
 
-const categorias = ["tesouroDireto", "cdb"];
+const categorias = ["tesouro-direto", "cdb"];
 
 botoes.forEach(botao => {
     botao.addEventListener('click', () => {
