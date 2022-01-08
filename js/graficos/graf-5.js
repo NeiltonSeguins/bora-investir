@@ -65,7 +65,7 @@ export const grafico5 = () => {
             plugins: {
                 title: {
                     display: true,
-                    text: "Grupo de Investimento por Idade (%)",
+                    text: "Desvantagem em aplicar dinheiro (%)",
                 },
                 datalabels: {
                     font: {
