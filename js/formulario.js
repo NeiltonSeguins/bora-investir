@@ -73,16 +73,21 @@ function totalScore() {
     return total_score;
 }
 
+var perfil = undefined;
+
 function getInfoBasedOnScore() {
     if (totalScore() == 0) {
         var score_info = "Responda Corretamente.";
     }else if (totalScore() <= 14) {
         var score_info = "Você possui o perfil conservador.";
+        perfil = "conservador";
     } else if (totalScore() >= 36) {
         var score_info = "Você possui o perfil Arrojado."
+        perfil = "arrojado";
     }
     else {
         var score_info = "Você possui o perfil moderado."
+        perfil = "moderado";
     }
 
     return score_info;
@@ -165,3 +170,13 @@ function growProgressBar(percentage_width) {
     var bar = document.getElementById("progress_bar");
     bar.style.width = percentage_width;
 }
+
+const botao = document.getElementById('ver-conteudos');
+
+botao.addEventListener('click', () => {
+    if (perfil != undefined) {
+        window.location.href = `playlist.html?categoria=perfil-${perfil}`;
+    } else {
+        window.location.href = '../';
+    }
+});
