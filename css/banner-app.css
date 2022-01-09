@@ -1,0 +1,111 @@
+.banner-app{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/Imagens/Group\ 46.png');
+    background-position-y: center;
+    background-repeat: no-repeat;
+    padding: 80px 15%;
+    background-size: cover;
+}
+
+.banner-app-titulo{
+    display: flex;
+    width: 372px;
+    height: 150px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    margin: -40px 0 0 0;
+    
+    color: #80ED99;
+}
+
+.banner-app-conteudo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #EAEAEA;
+    width:390px;
+    height: 322px;
+}
+
+.banner-app-botão{
+    height: 64px;
+    width: 205px;
+    background-color: #57CC99;
+    border-radius: 100px;
+    border: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#23013D;
+    margin-top: 20px;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+   
+    .banner-app {
+       background-position-x: 90%;
+        background-position-y: 110%; 
+        position: relative;
+        background-size: cover;
+        
+ 
+    }
+    .banner-app-titulo{
+        font-size: 30px;
+        width: 350px;
+        height: 150px;
+    }
+    .banner-app-conteudo{
+     margin: -50px 0 0 0;
+     font-size: 30px;
+     width:350px;
+     height: 322px;
+    }
+
+
+    
+
+    
+
+    
+    
+    
+}
+ @media (max-width: 1024px) {
+     
+    .banner-app {
+        background-position-x: 50%;
+        background-position-y: 110%;      
+    }
+
+
+
+    
+
+} 
+
+@media (max-width: 1310px) {
+    .banner-app {
+        background-position-x: 50%;
+        background-position-y: 110%;
+       
+    }
+
+
+} 
+
