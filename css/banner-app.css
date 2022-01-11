@@ -2,41 +2,26 @@
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     background-image: url('../assets/Imagens/Group\ 46.png');
-    background-position-y: center;
+    background-position: center;
     background-repeat: no-repeat;
     padding: 80px 15%;
-    background-size: cover;
+    background-size:cover;
 }
-
-.banner-app-titulo{
-    display: flex;
-    width: 372px;
-    height: 150px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: bold;
+.banner-app h1{
     font-size: 64px;
-    line-height: 75px;
-    margin: -40px 0 0 0;
-    
-    color: #80ED99;
+    color:  #80ED99;
 }
-
 .banner-app-conteudo{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
+    max-width: 390px;
     font-size: 36px;
-    line-height: 42px;
-    color: #EAEAEA;
-    width:390px;
-    height: 322px;
+    font-family: 'Roboto';
 }
 
 .banner-app-botão{
-    height: 64px;
     width: 205px;
+    height: 64px;
     background-color: #57CC99;
     border-radius: 100px;
     border: none;
@@ -51,61 +36,37 @@
     margin-top: 20px;
     margin-bottom: 5rem;
     cursor: pointer;
+  
 }
 
+.banner-app-titulo{
+    color: white;
+}
+.banner-app-conteudo{
+    color: white;
+}
 
-
-@media (max-width: 768px) {
-   
-    .banner-app {
-       background-position-x: 90%;
-        background-position-y: 110%; 
-        position: relative;
-        background-size: cover;
-        
- 
+@media (max-width:518px){
+    .banner-app h1{
+        font-size: 32px;
+        color:  #80ED99;
     }
-    .banner-app-titulo{
-        font-size: 30px;
-        width: 350px;
-        height: 150px;
-    }
+    
     .banner-app-conteudo{
-     margin: -50px 0 0 0;
-     font-size: 30px;
-     width:350px;
-     height: 322px;
+        width: 70%;
+        font-size: 24px;
     }
 
-
-    
-
-    
-
-    
-    
+    .banner-app-botão{
+    width: 160px;
+    height: 32px;
+    font-size: 16px;
+    }
     
 }
- @media (max-width: 1024px) {
-     
-    .banner-app {
-        background-position-x: 50%;
-        background-position-y: 110%;      
-    }
 
 
 
-    
-
-} 
-
-@media (max-width: 1310px) {
-    .banner-app {
-        background-position-x: 50%;
-        background-position-y: 110%;
-       
-    }
 
 
-} 
 
