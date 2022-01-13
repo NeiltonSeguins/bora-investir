@@ -159,6 +159,7 @@
   letter-spacing: 0em;
   text-align: center;
 }
+
 .tipo-investidor__sub-titulo {
   font-family: Roboto;
   font-size: 25px;
@@ -174,15 +175,21 @@
   margin-bottom: 2rem;
 }
 
+@media(min-width:769px) {
+  .tipo-investidor__botão {
+    height: 64px;
+    width: 288px;
+     font-size: 25px;
+  }
+}
+
 .tipo-investidor__botão {
-  height: 64px;
-  width: 288px;
+
   background: none;
   background-color: #23013d;
   border-radius: 100px;
   border: none;
   font-family: "Roboto";
-  font-size: 25px;
   font-style: normal;
   font-weight: 700;
   line-height: 35px;

@@ -19,9 +19,9 @@
 .container-saiba-mais {
     background: #FFFFFF;
     border-radius: 100px;
+    border: none;
+    font-weight: 500;
 
-    width: calc(8em + 2vw);
-    height: calc(1.5em + 4vh);
 }
 
 .senhor-sentado {
@@ -44,54 +44,42 @@
 
 @media (min-width: 280px) {
     .senhor-sentado {
-        width: calc(9em + 9vw);
-        margin: -309px 0px 0px 0px;
-    }
-
-    #senhor-sentado {
-        width: 58vw;
-        margin: 15px 0px 0px -151px;
-    }
-
-    .apresentacao-site {
-        font-size: calc(0.5em + 0.4vw);
-        width: 42%;
-        height: 77%;
-        margin: 30px 0px 0px 15px;
-    }
-
-    #saiba-mais {
-        vertical-align: -webkit-baseline-middle;
-        font-family: 'Rubik';
-        font-size: calc(1.1em + 0.4vw);
-    }
-
-    .container-saiba-mais {
-        padding: 6px 0px 0px 0px;
-    }
-}
-
-@media (min-width: 315px) {
-    .senhor-sentado {
-        margin: -341px -34px 0px 0px;
-        width: calc(12em + 13vw);
+        margin: -410px -164px 0px 0px;
+        width: calc(18em + 13vw);
     }
 
     #senhor-sentado {
         width: 61vw;
-        margin: 6px 2px 13px -194px;
+        margin: 38px 0px 0px -314px;
     }
+
+    .apresentacao-site {
+        font-size: 12px;
+        width: 42%;
+        height: 83%;
+        margin: 30px 0px 0px 15px;
+    }
+
+    .container-saiba-mais {
+        font-family: 'Rubik';
+        width: calc(8em + 2vw);
+        height: calc(1.5em + 4vh);
+        font-size: calc(1.1em + 0.4vw);
+    }
+
+
 }
+
 
 
 @media (min-width: 400px) {
     .senhor-sentado {
-        margin: -353px -37px -12px -1px;
-        width: calc(12em + 15vw);
+        margin: -419px -119px 0px 0px;
+
     }
 
     #senhor-sentado {
-        margin: 5px 0px 0px -223px;
+        margin: 33px 0px 0px -331px;
     }
 }
 
@@ -99,26 +87,15 @@
 @media (min-width: 600px) {
 
     .senhor-sentado {
-        margin: -356px 0px 0px 0px;
-        width: calc(13em + 15vw);
+        margin: -419px -70px 0px 0px;
     }
 
     #senhor-sentado {
-        margin: 4px 0px 0px -271px;
+        margin: 28px 69px 3px -350px;
     }
 
 }
 
-@media (min-width: 721px) {
-    .apresentacao-site {
-        margin: 30px 0px 0px 5em;
-    }
-
-    #logo {
-        margin: 15px 0px 0px 3.8em;
-    }
-
-}
 
 @media (min-width: 769px) {
     .apresentacao-site {
@@ -136,9 +113,11 @@
     }
 
     .container-saiba-mais {
+        height: 64px;
+        width: 171px;
+        font-size: 20px;
         margin-top: 30px;
         margin-bottom: 100px;
-        padding: 5px 0px 0px 19px;
     }
 
     .senhor-sentado {
