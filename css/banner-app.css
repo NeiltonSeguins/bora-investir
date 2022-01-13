@@ -1,4 +1,5 @@
-.banner-app{
+.banner-app {
+    background-color: black;
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
@@ -7,20 +8,21 @@
     background-position: center;
     background-repeat: no-repeat;
     padding: 80px 15%;
-    background-size:cover;
+    background-size: cover;
 }
-.banner-app h1{
-    font-size: 64px;
-    color:  #80ED99;
+
+.banner-app h1 {
+    color: #80ED99;
 }
-.banner-app-conteudo{
+
+.banner-app-conteudo {
     margin: 30px 0 30px 0;
     max-width: 390px;
     font-size: 36px;
     font-family: 'Roboto';
 }
 
-.banner-app-botão{
+.banner-app-botão {
     width: 205px;
     height: 64px;
     background-color: #57CC99;
@@ -33,41 +35,47 @@
     line-height: 28px;
     letter-spacing: 0em;
     text-align: center;
-    color:#23013D;
+    color: #23013D;
     margin-top: 20px;
     margin-bottom: 5rem;
     cursor: pointer;
-  
+
 }
 
-.banner-app-titulo{
-    color: white;
-}
-.banner-app-conteudo{
+.banner-app-titulo {
     color: white;
 }
 
-@media (max-width:769px){
-    .banner-app h1{
-        font-size: 32px;
-        color:  #80ED99;
-    }
-    
-    .banner-app-conteudo{
-        width: 70%;
-        font-size: 24px;
-    }
-
-    .banner-app-botão{
-    width: 160px;
-    height: 32px;
-    font-size: 16px;
-    }
-    
+.banner-app-conteudo {
+    color: white;
 }
 
+@media (min-width:769px) {
+    .banner-app h1 {
+        font-size: 40px;
+    }
+    .banner-app-conteudo {
+        font-size: 20px;
+    }
+}
 
+@media (max-width:769px) {
+    .banner-app h1 {
+        align-self: center;
+        font-size: 18px;
+        color: #80ED99;
+    }
 
+    .banner-app-conteudo {
+        align-self: center;
+        width: auto;
+        font-size: 18px;
+    }
 
-
-
+    .banner-app-botão {
+        align-self: center;
+        width: calc(8em + 2vw);
+        height: calc(1.5em + 4vh);
+        font-size: 16px;
+    }
+}

@@ -90,4 +90,10 @@
   .tipo-investidor__cards__individual-card {
     width: 90%;
   }
+  .tipo-investidor__botão {
+    width: calc(8em + 2vw);
+    height: calc(1.5em + 4vh);
+    font-size: 20px;
+  }
+  
 }

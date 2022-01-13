@@ -1,6 +1,6 @@
 .site-info {
     display: flex;
-    height: 65vh;
+    height: 82vh;
     justify-content: space-evenly;
     flex-direction: column;
     font-family: 'Roboto';
@@ -25,10 +25,9 @@
     background: #57CC99;
     border-radius: 100px;
     align-self: self-end;
-    width: calc(4em + 2vw);
-    height: calc(1.5em + 4vh);
+    font-weight: 500;
     border: none;
-    color: #ffffff;
+    color: #23013D;
     cursor: pointer;
 
 }
@@ -37,6 +36,11 @@
     .site-info {
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .container-mais {
+        width: calc(8em + 2vw);
+        height: calc(1.5em + 4vh);
     }
 }
 
@@ -67,7 +71,9 @@
     }
 
     .container-mais {
-        font-size: 18px;
+        font-size: 20px;
+        width: 187px;
+        height: 64px;
     }
 
 }
