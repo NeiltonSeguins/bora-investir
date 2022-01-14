@@ -43,6 +43,16 @@ function sleep(milliseconds) {
     } while (currentDate - date < milliseconds);
 }
 
+function nav() {
+  const burger = document.querySelector(".burger");
+  const nav = document.querySelector(".main-nav");
+  burger.addEventListener("click", () => {
+    nav.classList.toggle("show");
+  });
+}
+
+document.addEventListener("DOMContentLoaded", nav);
+
 let index = 0;
 
 const url = new URL(window.location);
