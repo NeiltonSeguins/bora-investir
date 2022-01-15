@@ -108,21 +108,37 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 [![Linkedin Badge](https://img.shields.io/badge/-WeyderFreire-darkgreen?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/weyder-freire-7876a81aa/)](https://www.linkedin.com/in/weyder-freire-7876a81aa/)
 
+<a href="https://www.linkedin.com/in/wellington-garcia-03a767a7/">
+ <img style="border-radius: 50%;" src="./assets/sem-foto.png" width="100px;" alt=""/>
+ <br />
+ <sub><b>Wellington Garcia</b></sub></a> <a href="https://www.linkedin.com/in/wellington-garcia-03a767a7/" title="Cientista de Dados">📈</a>
+ <br />
+
+[![Linkedin Badge](https://img.shields.io/badge/-WellingtonGarcia-darkgreen?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/wellington-garcia-03a767a7/)](https://www.linkedin.com/in/wellington-garcia-03a767a7/)
+
 ### 👨‍💻 Programadores
 
 <a href="https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/">
  <img style="border-radius: 50%;" src="./assets/NeiltonSeguins.jpeg" width="100px;" alt=""/>
  <br />
- <sub><b>Neilton Seguins</b></sub></a> <a href="https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/" title="Photolead">👨‍💻</a>
+ <sub><b>Neilton Seguins</b></sub></a> <a href="https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/" title="Programador">👨‍💻</a>
  <br />
 
 [![Linkedin Badge](https://img.shields.io/badge/-NeiltonSeguins-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/)](https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/)
+
+<a href="https://www.linkedin.com/in/lucas-gabriel-araujo-ribeiro/">
+ <img style="border-radius: 50%;" src="./assets/LucasRibeiro.jpeg" width="100px;" alt=""/>
+ <br />
+ <sub><b>Lucas Ribeiro</b></sub></a> <a href="https://www.linkedin.com/in/lucas-gabriel-araujo-ribeiro/" title="Programador">👨‍💻</a>
+ <br />
+
+[![Linkedin Badge](https://img.shields.io/badge/-NeiltonSeguins-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucas-gabriel-araujo-ribeiro/)](https://www.linkedin.com/in/lucas-gabriel-araujo-ribeiro/)
 
 ---
 
 ## 📝 Licença
 
-MIT License
-Ficou interessado? 👋🏽 [Entre em contato!](https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/)
+MIT License.
+Ficou interessado em nosso projeto? [Entre em contato!](https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/)
 
 ---
