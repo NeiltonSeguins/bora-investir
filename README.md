@@ -93,9 +93,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <table>
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/beatriz-brandt-263237224"><img style="border-radius: 50%;" src="./assets/BeatrizBrandt.jfif" width="100px;" alt=""/><br /><sub><b>Beatriz Brandt</b></sub></a><br /><a href="https://www.linkedin.com/in/beatriz-brandt-263237224" title="Design">✒️</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/beatriz-brandt-263237224"><img style="border-radius: 50%;" src="./assets/BeatrizBrandt.jfif" width="100px;" alt=""/><br /><sub><b>Beatriz Brandt</b></sub></a><br /><a href="https://www.linkedin.com/in/beatriz-brandt-263237224" title="Design">✒️</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/beatriz-brandt-263237224"><img style="border-radius: 50%;" src="./assets/BeatrizBrandt.jfif" width="100px;" alt=""/><br /><sub><b>Beatriz Brandt</b></sub></a><br /><a href="https://www.linkedin.com/in/beatriz-brandt-263237224" title="Design">✒️</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/beatriz-brandt-263237224"><img style="border-radius: 50%;" src="./assets/BeatrizBrandt.jfif" width="100px;" alt=""/><br /><sub><b>Beatriz Brandt</b></sub></a><br /><a href="https://www.linkedin.com/in/beatriz-brandt-263237224" title="Design">✒️</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/edilana-ribeiro-090414220/"><img style="border-radius: 50%;" src="./assets/EdilanaRibeiro.jfif" width="100px;" alt=""/><br /><sub><b>Edilana Ribeiro</b></sub></a><br /><a href="https://www.linkedin.com/in/edilana-ribeiro-090414220/" title="Design">✒️</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/maria-silveira-171b3919b/"><img style="border-radius: 50%;" src="./assets/MariaSilveira.jfif" width="100px;" alt=""/><br /><sub><b>Maria Silveira</b></sub></a><br /><a href="https://www.linkedin.com/in/maria-silveira-171b3919b/" title="Design">✒️</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/karolsoares/"><img style="border-radius: 50%;" src="./assets/KarolineOliveira.jfif" width="100px;" alt=""/><br /><sub><b>Karoline Oliveira</b></sub></a><br /><a href="https://www.linkedin.com/in/karolsoares/" title="Design">✒️</a></td>
   </tr>
 </table>
 
