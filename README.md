@@ -111,21 +111,15 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ### 👨‍💻 Programadores
 
-<a href="https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/">
- <img style="border-radius: 50%;" src="./assets/NeiltonSeguins.jpeg" width="100px;" alt=""/>
- <br />
- <sub><b>Neilton Seguins</b></sub></a> <a href="https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/" title="Programador">👨‍💻</a>
- <br />
-
-[![Linkedin Badge](https://img.shields.io/badge/-NeiltonSeguins-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/)](https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/)
-
-<a href="https://www.linkedin.com/in/lucas-gabriel-araujo-ribeiro/">
- <img style="border-radius: 50%;" src="./assets/LucasRibeiro.jfif" width="100px;" alt=""/>
- <br />
- <sub><b>Lucas Ribeiro</b></sub></a> <a href="https://www.linkedin.com/in/lucas-gabriel-araujo-ribeiro/" title="Programador">👨‍💻</a>
- <br />
-
-[![Linkedin Badge](https://img.shields.io/badge/-NeiltonSeguins-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucas-gabriel-araujo-ribeiro/)](https://www.linkedin.com/in/lucas-gabriel-araujo-ribeiro/)
+<table>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/beatriz-costa-218060218/"><img style="border-radius: 50%;" src="./assets/BeatrizCosta.jfif" width="100px;" alt=""/><br /><sub><b>Beatriz Costa</b></sub></a><br /><a href="https://www.linkedin.com/in/beatriz-costa-218060218/" title="Programadora">👨‍💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/carlosadrianoss/"><img style="border-radius: 50%;" src="./assets/CarlosAdriano.jfif" width="100px;" alt=""/><br /><sub><b>Carlos Adriano</b></sub></a><br /><a href="https://www.linkedin.com/in/carlosadrianoss/" title="Programador">👨‍💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/lucas-gabriel-araujo-ribeiro/"><img style="border-radius: 50%;" src="./assets/LucasRibeiro.jfif.jfif" width="100px;" alt=""/><br /><sub><b>Lucas Ribeiro</b></sub></a><br /><a href="https://www.linkedin.com/in/lucas-gabriel-araujo-ribeiro/" title="Programador">👨‍💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/mayanesousabarroso/"><img style="border-radius: 50%;" src="./assets/MayaneSousa.jfif" width="100px;" alt=""/><br /><sub><b>Mayane Sousa</b></sub></a><br /><a href="https://www.linkedin.com/in/mayanesousabarroso/" title="Programadora">👨‍💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/"><img style="border-radius: 50%;" src="./assets/NeiltonSeguins.jpeg" width="100px;" alt=""/><br /><sub><b>Neilton Seguins</b></sub></a><br /><a href="https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/" title="Programador">👨‍💻</a></td>
+  </tr>
+</table>
 
 ---
 
