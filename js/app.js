@@ -14,12 +14,12 @@ function nav() {
 
 btnMostrarMais.addEventListener("click", () => {
   btnMostrarMais.style.display = "none";
-  div.classList.remove('animate');
+  div.classList.remove("animate");
   btnMostrarMenos.style.display = "block";
 });
 
 btnMostrarMenos.addEventListener("click", () => {
   btnMostrarMenos.style.display = "none";
-  div.classList.add('animate');
+  div.classList.add("animate");
   btnMostrarMais.style.display = "block";
 });

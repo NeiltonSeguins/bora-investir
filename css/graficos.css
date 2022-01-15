@@ -61,10 +61,10 @@
   color: #50049a;
 }
 
-#graf-1 {
+/* .graf {
   width: 575px;
   height: 575px;
-}
+} */
 
 .graficos__button--menos {
   display: none;
