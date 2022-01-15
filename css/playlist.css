@@ -1,0 +1,215 @@
+.playlist__main {
+    background-color: #EEE;
+}
+
+.cabecalho.playlist__cabecalho {
+    height: 100px;
+}
+
+.main-nav.playlist__nav {
+    align-items: center;
+    height: 100px;
+    justify-content: space-around;
+}
+
+.playlist__nav-links {
+    top: 3vh
+}
+
+#playlist-logo {
+    width: 150px;
+}
+
+.playlist__titulo {
+    background-color: #80ED99;
+    color: #23013D;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.youtube-playlist {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.youtube-playlist__lista {
+    background-image: url('../assets/Imagens/Group 47.png');
+    background-repeat: repeat;
+    background-size: contain;
+    background-position-y: top;
+    border-left: solid 2px #80ED99;
+    border-right: solid 2px #80ED99;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding-bottom: 50px;
+}
+
+.youtube-playlist__lista__item {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 70%);
+    border: solid 2px #80ED99;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    padding: 15px;
+    margin: 5px 5px 0;
+    transition: 2s;
+}
+
+.youtube-playlist__lista__item.youtube-playlist__lista__item--ativo {
+    background-color: rgba(128, 237, 153, 70%);
+    border: solid 2px #23013D;
+}
+
+.youtube-playlist__lista__item__thumb {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+.youtube-playlist__lista__item__titulo {
+    color: #23013D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12.5px;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.youtube-playlist__container {
+    height: 100vh;
+    padding: 0 12%;
+    width: 75%;
+}
+
+.youtube-playlist__video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.youtube-playlist__video iframe, .youtube-playlist__video object,
+ .youtube-playlist__video embed, .youtube-playlist__video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.youtube-playlist__video__titulo {
+    color: #23013D;
+    font-family: 'Roboto', sans-serif;
+    margin: 50px 0 20px;
+}
+
+.youtube-playlist__botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.youtube-playlist__botao {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#playlist-left-button {
+    background-image: url('../assets/Icones/arrow-left.svg');
+    width: 60px;
+    height: 60px;
+}
+
+#playlist-right-button {
+    background-image: url('../assets/Icones/arrow-right.svg');
+    height: 75px;
+    width: 75px;
+}
+
+@media (max-width: 768px) {
+    .youtube-playlist {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .youtube-playlist__container {
+        width: 100%;
+        height: 100%;
+        margin-top: 50px;
+    }
+    
+    .youtube-playlist__lista {
+        border: 0;
+        width: 100%;
+        padding: 0 12% 50px;
+    }
+
+    .playlist__titulo {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+    }
+
+    .youtube-playlist__botoes {
+        margin-bottom: 20px;
+    }
+    
+    #playlist-left-button {
+        width: 52px;
+        height: 52px;
+    }
+    
+    #playlist-right-button {
+        height: 65px;
+        width: 65px;
+    }
+}
+
+@media (max-width: 480px) {
+    #playlist-logo {
+        width: 115px;
+    }
+
+    .youtube-playlist__container {
+        margin-top: 30px;
+    }
+
+    .playlist__titulo {
+        font-size: 18px;
+    }
+
+    .youtube-playlist__container {
+        padding: 0 5%;
+    }
+
+    .youtube-playlist__video__titulo {
+        font-size: 18px;
+    }
+
+    .youtube-playlist__lista {
+        padding: 0 5% 50px;
+    }
+
+    #playlist-left-button {
+        width: 40px;
+        height: 40px;
+    }
+    
+    #playlist-right-button {
+        height: 50px;
+        width: 50px;
+    }
+}

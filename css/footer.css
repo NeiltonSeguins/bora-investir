@@ -1,0 +1,300 @@
+.footer {
+    bottom: 0px;
+    width: 100%;
+    background-color: #23013D;
+    padding: 80px 15%;
+
+
+}
+
+.footer_header {
+    display: flex;
+    flex-direction: column;
+    margin: -40px 0 0 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_footer li {
+    margin: 0 0 0 44px;
+}
+
+
+.menu_footer {
+
+    width: 100%;
+    color: white;
+    display: flex;
+
+}
+
+@media (max-width:768px) {
+    .menu_footer li {
+        font-size: 18px;
+    }
+
+
+    .texto_footer {
+        font-size: 18px;
+    }
+
+    .colunas_footer {
+
+        font-size: 18px;
+    }
+
+    .colunas_footer h2 {
+        font-size:18px;
+    }
+}
+
+@media (min-width:768px) {
+    .menu_footer li {
+        font-size: 20px;
+    }
+
+    .texto_footer {
+        font-size: 20px;
+    }
+
+    .colunas_footer {
+        font-size: 20px;
+    }
+    
+    .colunas_footer h2 {
+        font-size:20px;
+    }
+}
+
+.menu_footer li {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-family: 'Rubik';
+    font-style: normal;
+    line-height: 43px;
+    white-space: nowrap;
+
+}
+
+.menu_footer li img {
+    width: 17.375vw;
+    height: 4.375vw;
+
+}
+
+
+.texto_footer {
+    color: white;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    margin: -10px 0 48px 0;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.container {
+    max-width: 1170px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.colunas_footer {
+
+    color: white;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    margin: 40px;
+    padding: 0 10px;
+    flex-grow: 1;
+}
+
+
+.colunas_footer h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.colunas_footer hr {
+    width: 276px;
+    margin-bottom: 17px;
+}
+
+
+
+.colunas_footer li a {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.colunas_footer img {
+    width: 18px;
+    height: 18px;
+}
+
+
+#bottom_footer {
+    color: white;
+    display: flex;
+    font-family: ' Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 103px 0 0 0;
+}
+
+
+@media (max-width: 1551px) {
+
+    .menu_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .menu_footer li {
+        margin: 40px;
+    }
+
+
+}
+
+@media (max-width: 1220px) {
+
+    .menu_footer li img {
+        width: 190px;
+        height: 56.96px;
+
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .menu_footer {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .menu_footer li {
+        margin: 40px;
+    }
+
+    .conteudo_footer {
+        margin: 40px;
+    }
+
+    .menu_footer li img {
+        width: 190px;
+        height: 56.96px;
+
+    }
+
+    .colunas_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+
+}
+
+@media (max-width: 768px) {
+    .menu_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu_footer li {
+        margin: 40px;
+    }
+
+    .conteudo_footer {
+        margin: 40px;
+    }
+
+    .texto_footer {
+        display: flex;
+
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+
+
+}
+
+@media (max-width: 500px) {
+    .footer {
+        background-size: 100vh;
+    }
+
+    .menu_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_logo {
+        display: flex;
+        position: relative;
+    }
+
+    .menu_footer li {
+        margin: 40px;
+    }
+
+
+
+    .row {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+
+    }
+
+    .colunas_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 376px) {
+    .colunas_footer hr {
+        width: 60%;
+
+    }
+
+}

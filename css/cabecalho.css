@@ -1,10 +1,13 @@
 .cabecalho {
-    height: 100vh;
     background-color: #23013D;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 @media (min-width: 200px) {
+    .cabecalho {
+        height: 100vh;
+    }
+
     #logo {
         width: 115px;
         margin: 15px 0px 0px 10px;
@@ -12,30 +15,56 @@
 }
 
 @media (min-width: 600px) {
-    .nav-links li {
-        width: 115px;
-        padding-top: 5px;
-    }
-
-    #cadastre-se {
+    .cadastre-se {
         background: #80ED99;
         border-radius: 100px;
-        height: 30px;
+        height: calc(1.5em + 4vh);
+        width: 8em;
     }
 
-    #entrar {
+    .entrar {
         border: 1px solid #80ED99;
         box-sizing: border-box;
         border-radius: 100px;
-        height: 30px;
+        height: calc(1.5em + 4vh);
+        width: 8em;
+    }
+
+    #cadastre-se {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+        color: black;
+    }
+
+    #entrar {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
     }
 }
 
-
-@media (min-width: 800px) {
-    #logo {
-        width: 160px;
-        margin: 100px 0px 0px 70px;
+@media (min-width: 769px) {
+    .cadastre-se {
+        width: 171px;
+        height: 64px;
     }
 
+    .entrar {
+        width: 171px;
+        height: 64px;
+    }
+
+    #logo {
+        width: 189px;
+        height: 62px;
+    }
+}
+
+@media (min-width: 900px) {
+    #logo {
+        margin: 15px 0px 0px 50px
+    }
 }

@@ -1,11 +1,7 @@
 .apresentacao-site {
-    height: 50%;
     display: flex;
     flex-direction: column;
-    width: 42%;
     justify-content: space-evenly;
-    margin: 30px 0px 0px 15px;
-    font-size: calc(0.5em + 0.4vw);
 }
 
 .apresentacao-titulo {
@@ -23,16 +19,14 @@
 .container-saiba-mais {
     background: #FFFFFF;
     border-radius: 100px;
-   
-    width: calc(7em + 2vw);
-    padding: 3px 0px 0px 0px;
-    height: calc(1.5em + 1.6vh);
+    border: none;
+    font-weight: 500;
+
 }
+
 .senhor-sentado {
     display: flex;
-
     align-items: flex-start;
-
     float: right;
 }
 
@@ -50,70 +44,142 @@
 
 @media (min-width: 280px) {
     .senhor-sentado {
-        width: calc(9em + 9vw);
-        margin: -250px 0px 0px 0px;
-    }
-
-    #senhor-sentado {
-        width: 58vw;
-        margin: 15px 0px 0px -151px;
-
-    }
-}
-
-@media (min-width: 315px) {
-    .senhor-sentado {
-        margin: -276px 0px 0px 0px;
-        width: calc(9em + 13vw);
+        margin: -410px -164px 0px 0px;
+        width: calc(18em + 13vw);
     }
 
     #senhor-sentado {
         width: 61vw;
-        margin: 2px 0px 0px -175px;
+        margin: 38px 0px 0px -314px;
     }
+
+    .apresentacao-site {
+        font-size: 12px;
+        width: 42%;
+        height: 83%;
+        margin: 30px 0px 0px 15px;
+    }
+
+    .container-saiba-mais {
+        font-family: 'Rubik';
+        width: calc(8em + 2vw);
+        height: calc(1.5em + 4vh);
+        font-size: calc(1.1em + 0.4vw);
+    }
+
+
 }
+
 
 
 @media (min-width: 400px) {
     .senhor-sentado {
-        margin: -281px 0px 0px 0px;
-        width: calc(10em + 15vw);
+        margin: -419px -119px 0px 0px;
+
     }
 
     #senhor-sentado {
-        margin: 5px 0px 0px -208px;
+        margin: 33px 0px 0px -331px;
     }
 }
+
 
 @media (min-width: 600px) {
+
     .senhor-sentado {
-        margin: -254px 0px 0px 0px;
-        width: calc(12em + 17vw);
+        margin: -419px -70px 0px 0px;
     }
 
     #senhor-sentado {
+        margin: 28px 69px 3px -350px;
+    }
 
-        margin: 4px 0px 0px -283px;
+}
+
+
+@media (min-width: 769px) {
+    .apresentacao-site {
+        font-size: inherit;
+        width: 50%;
+    }
+
+    .apresentacao-titulo {
+        font-size: 40px;
+    }
+
+    .apresentacao-subtitulo {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .container-saiba-mais {
+        height: 64px;
+        width: 171px;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+
+    .senhor-sentado {
+        width: calc(16em + 13vw);
+        margin: -458px -28px 0px 0px;
+    }
+
+    #senhor-sentado {
+        margin: 2px 0px 0px -310px;
+    }
+
+    #saiba-mais {
+        font-size: 18px;
     }
 }
 
-@media (min-width: 800px) {
-    .apresentacao-site{
-        margin: 30px 0px 0px 73px;
-    }
-}
 
 @media (min-width: 900px) {
+    .apresentacao-titulo {
+        max-width: 448px;
+    }
+
+    .apresentacao-subtitulo {
+        max-width: 448px;
+    }
 
     #senhor-sentado {
-        margin: 6px 0px 0px -322px;
+        margin: 6px 0px 0px -327px;
+    }
 
+    .senhor-sentado {
+
+        margin: -451px 0px 0px 0px;
     }
 }
 
-@media (min-width: 1150px) {
 
+@media (min-width: 1050px) {
     #senhor-sentado {
-        margin: 5px 0px 0px -384px;
+        margin: 6px 0px 0px -352px;
+    }
+
+    .senhor-sentado {
+        width: 25em;
+        margin: -465px 0px 0px 0px;
+    }
+}
+
+
+@media (min-width: 1080px) {
+    .apresentacao-site {
+        margin: 40px 0px 0px 10em;
+    }
+
+    #logo {
+        margin: 15px 0px 0px 9.8em;
+    }
+}
+
+@media (min-width: 1344px) {
+    .senhor-sentado {
+        width: 25em;
+        margin: -535px 0px 0px 0px;
     }
 }

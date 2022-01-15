@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Bora Investir</title>
+  <link rel="stylesheet" href="./css/nav.css" />
+  <link rel="stylesheet" href="./css/cabecalho.css" />
+  <link rel="stylesheet" href="./css/info.css" />
+  <link rel="stylesheet" href="./css/apresentacao.css" />
+  <link rel="stylesheet" href="./css/conteudos.css" />
+  <link rel="stylesheet" href="./css/aprendaMais.css" />
+  <link rel="stylesheet" href="./css/playlist.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="./assets/Icones/favicon.ico">
+</head>
+    
+<body>
+  <header class="cabecalho playlist__cabecalho">
+    <nav class="main-nav playlist__nav">
+      <div>
+        <a href="index.html">
+          <img src="./assets/Imagens/bora-investir.png" alt="logo da startup" id="playlist-logo">
+        </a>
+      </div>
+      <ul class="nav-links playlist__nav-links">
+        <li><a href="#">Sobre Nós</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Cadastre-se</a></li>
+        <li id="entrar"><a href="#">Entrar</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="playlist__main">
+    <section class="youtube-playlist">
+      <div class="youtube-playlist__lista">
+        <h2 class="playlist__titulo"></h2>
+      </div>
+      <div class = youtube-playlist__container>
+        <h1 class="youtube-playlist__video__titulo"></h1>
+        <div class="youtube-playlist__video">
+          <iframe width="100%" height="100%" src="" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: 0px; border-radius: 30px;"></iframe>
+        </div>
+        <div class="youtube-playlist__botoes">
+          <button title="Anterior" class="youtube-playlist__botao" id="playlist-left-button"></button>
+          <button title="Próximo" class="youtube-playlist__botao" id="playlist-right-button"></button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./js/playlist/playlist.js" type="module"></script>
+
+</body>
+</html>
