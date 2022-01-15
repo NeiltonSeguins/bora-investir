@@ -86,16 +86,16 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-## 🦸 Autores
+## 🦸 Colaboradores
 
 ### ✒️ Designers
 
 <table>
   <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/beatriz-brandt-263237224"><img style="border-radius: 50%;" src="./assets/BeatrizBrandt.jfif" width="100px;" alt=""/><br /><sub><b>Beatriz Brandt</b></sub></a><br /><a href="https://www.linkedin.com/in/beatriz-brandt-263237224" title="Design">✒️</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/edilana-ribeiro-090414220/"><img style="border-radius: 50%;" src="./assets/EdilanaRibeiro.jfif" width="100px;" alt=""/><br /><sub><b>Edilana Ribeiro</b></sub></a><br /><a href="https://www.linkedin.com/in/edilana-ribeiro-090414220/" title="Design">✒️</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/maria-silveira-171b3919b/"><img style="border-radius: 50%;" src="./assets/MariaSilveira.jfif" width="100px;" alt=""/><br /><sub><b>Maria Silveira</b></sub></a><br /><a href="https://www.linkedin.com/in/maria-silveira-171b3919b/" title="Design">✒️</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/karolsoares/"><img style="border-radius: 50%;" src="./assets/KarolineOliveira.jfif" width="100px;" alt=""/><br /><sub><b>Karoline Oliveira</b></sub></a><br /><a href="https://www.linkedin.com/in/karolsoares/" title="Design">✒️</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/beatriz-brandt-263237224"><img style="border-radius: 50%;" src="./assets/Colaboradores/BeatrizBrandt.jfif" width="100px;" alt=""/><br /><sub><b>Beatriz Brandt</b></sub></a><br /><a href="https://www.linkedin.com/in/beatriz-brandt-263237224" title="Design">✒️</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/edilana-ribeiro-090414220/"><img style="border-radius: 50%;" src="./assets/Colaboradores/EdilanaRibeiro.jfif" width="100px;" alt=""/><br /><sub><b>Edilana Ribeiro</b></sub></a><br /><a href="https://www.linkedin.com/in/edilana-ribeiro-090414220/" title="Design">✒️</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/maria-silveira-171b3919b/"><img style="border-radius: 50%;" src="./assets/Colaboradores/MariaSilveira.jfif" width="100px;" alt=""/><br /><sub><b>Maria Silveira</b></sub></a><br /><a href="https://www.linkedin.com/in/maria-silveira-171b3919b/" title="Design">✒️</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/karolsoares/"><img style="border-radius: 50%;" src="./assets/Colaboradores/KarolineOliveira.jfif" width="100px;" alt=""/><br /><sub><b>Karoline Oliveira</b></sub></a><br /><a href="https://www.linkedin.com/in/karolsoares/" title="Design">✒️</a></td>
   </tr>
 </table>
 
@@ -103,9 +103,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <table>
   <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/weyder-freire-7876a81aa/"><img style="border-radius: 50%;" src="./assets/WeyderFreire.jfif" width="100px;" alt=""/><br /><sub><b>Weyder Freire</b></sub></a><br /><a href="https://www.linkedin.com/in/weyder-freire-7876a81aa/" title="Cientista de Dados">📈</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/wellington-garcia-03a767a7/"><img style="border-radius: 50%;" src="./assets/sem-foto.png" width="100px;" alt=""/><br /><sub><b> Wellington Garcia </b></sub></a><br /><a href="https://www.linkedin.com/in/wellington-garcia-03a767a7/" title="Cientista de Dados">📈</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/p217/"><img style="border-radius: 50%;" src="./assets/PedroLucas.jfif" width="100px;" alt=""/><br /><sub><b>Pedro Lucas</b></sub></a><br /><a href="https://www.linkedin.com/in/p217/" title="Cientista de Dados">📈</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/weyder-freire-7876a81aa/"><img style="border-radius: 50%;" src="./assets/Colaboradores/WeyderFreire.jfif" width="100px;" alt=""/><br /><sub><b>Weyder Freire</b></sub></a><br /><a href="https://www.linkedin.com/in/weyder-freire-7876a81aa/" title="Cientista de Dados">📈</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/wellington-garcia-03a767a7/"><img style="border-radius: 50%;" src="./assets/Colaboradores/sem-foto.png" width="100px;" alt=""/><br /><sub><b> Wellington Garcia </b></sub></a><br /><a href="https://www.linkedin.com/in/wellington-garcia-03a767a7/" title="Cientista de Dados">📈</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/p217/"><img style="border-radius: 50%;" src="./assets/Colaboradores/PedroLucas.jfif" width="100px;" alt=""/><br /><sub><b>Pedro Lucas</b></sub></a><br /><a href="https://www.linkedin.com/in/p217/" title="Cientista de Dados">📈</a></td>
   </tr>
 </table>
 
@@ -113,11 +113,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <table>
   <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/beatriz-costa-218060218/"><img style="border-radius: 50%;" src="./assets/BeatrizCosta.jfif" width="100px;" alt=""/><br /><sub><b>Beatriz Costa</b></sub></a><br /><a href="https://www.linkedin.com/in/beatriz-costa-218060218/" title="Programadora">👨‍💻</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/carlosadrianoss/"><img style="border-radius: 50%;" src="./assets/CarlosAdriano.jfif" width="100px;" alt=""/><br /><sub><b>Carlos Adriano</b></sub></a><br /><a href="https://www.linkedin.com/in/carlosadrianoss/" title="Programador">👨‍💻</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/lucas-gabriel-araujo-ribeiro/"><img style="border-radius: 50%;" src="./assets/LucasRibeiro.jfif.jfif" width="100px;" alt=""/><br /><sub><b>Lucas Ribeiro</b></sub></a><br /><a href="https://www.linkedin.com/in/lucas-gabriel-araujo-ribeiro/" title="Programador">👨‍💻</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/mayanesousabarroso/"><img style="border-radius: 50%;" src="./assets/MayaneSousa.jfif" width="100px;" alt=""/><br /><sub><b>Mayane Sousa</b></sub></a><br /><a href="https://www.linkedin.com/in/mayanesousabarroso/" title="Programadora">👨‍💻</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/"><img style="border-radius: 50%;" src="./assets/NeiltonSeguins.jpeg" width="100px;" alt=""/><br /><sub><b>Neilton Seguins</b></sub></a><br /><a href="https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/" title="Programador">👨‍💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/beatriz-costa-218060218/"><img style="border-radius: 50%;" src="./assets/Colaboradores/Colaboradores/BeatrizCosta.jfif" width="100px;" alt=""/><br /><sub><b>Beatriz Costa</b></sub></a><br /><a href="https://www.linkedin.com/in/beatriz-costa-218060218/" title="Programadora">👨‍💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/carlosadrianoss/"><img style="border-radius: 50%;" src="./assets/Colaboradores/CarlosAdriano.jfif" width="100px;" alt=""/><br /><sub><b>Carlos Adriano</b></sub></a><br /><a href="https://www.linkedin.com/in/carlosadrianoss/" title="Programador">👨‍💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/lucas-gabriel-araujo-ribeiro/"><img style="border-radius: 50%;" src="./assets/Colaboradores/LucasRibeiro.jfif" width="100px;" alt=""/><br /><sub><b>Lucas Ribeiro</b></sub></a><br /><a href="https://www.linkedin.com/in/lucas-gabriel-araujo-ribeiro/" title="Programador">👨‍💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/mayanesousabarroso/"><img style="border-radius: 50%;" src="./assets/Colaboradores/MayaneSousa.jfif" width="100px;" alt=""/><br /><sub><b>Mayane Sousa</b></sub></a><br /><a href="https://www.linkedin.com/in/mayanesousabarroso/" title="Programadora">👨‍💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/"><img style="border-radius: 50%;" src="./assets/Colaboradores/NeiltonSeguins.jpeg" width="100px;" alt=""/><br /><sub><b>Neilton Seguins</b></sub></a><br /><a href="https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/" title="Programador">👨‍💻</a></td>
   </tr>
 </table>
 
