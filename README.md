@@ -99,31 +99,15 @@ As seguintes ferramentas foram usadas na construção do projeto:
   </tr>
 </table>
 
-<!-- <a href="https://www.linkedin.com/in/beatriz-brandt-263237224">
- <img style="border-radius: 50%;" src="./assets/BeatrizBrandt.jfif" width="100px;" alt=""/>
- <br />
- <sub><b>Beatriz Brandt</b></sub></a> <a href="https://www.linkedin.com/in/beatriz-brandt-263237224" title="Design">✒️ </a>
- <br />
-
-[![Linkedin Badge](https://img.shields.io/badge/-BeatrizBrandt-red?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/beatriz-brandt-263237224)](https://www.linkedin.com/in/beatriz-brandt-263237224) -->
-
 ### 📈 Cientistas de Dados
 
-<a href="https://www.linkedin.com/in/weyder-freire-7876a81aa/">
- <img style="border-radius: 50%;" src="./assets/WeyderFreire.jfif" width="100px;" alt=""/>
- <br />
- <sub><b>Weyder Freire</b></sub></a> <a href="https://www.linkedin.com/in/weyder-freire-7876a81aa/" title="Cientista de Dados">📈</a>
- <br />
-
-[![Linkedin Badge](https://img.shields.io/badge/-WeyderFreire-darkgreen?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/weyder-freire-7876a81aa/)](https://www.linkedin.com/in/weyder-freire-7876a81aa/)
-
-<a href="https://www.linkedin.com/in/wellington-garcia-03a767a7/">
- <img style="border-radius: 50%;" src="./assets/sem-foto.png" width="100px;" alt=""/>
- <br />
- <sub><b>Wellington Garcia</b></sub></a> <a href="https://www.linkedin.com/in/wellington-garcia-03a767a7/" title="Cientista de Dados">📈</a>
- <br />
-
-[![Linkedin Badge](https://img.shields.io/badge/-WellingtonGarcia-darkgreen?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/wellington-garcia-03a767a7/)](https://www.linkedin.com/in/wellington-garcia-03a767a7/)
+<table>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/weyder-freire-7876a81aa/"><img style="border-radius: 50%;" src="./assets/WeyderFreire.jfif" width="100px;" alt=""/><br /><sub><b>Weyder Freire</b></sub></a><br /><a href="https://www.linkedin.com/in/weyder-freire-7876a81aa/" title="Cientista de Dados">📈</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/wellington-garcia-03a767a7/"><img style="border-radius: 50%;" src="./assets/sem-foto.png" width="100px;" alt=""/><br /><sub><b> Wellington Garcia </b></sub></a><br /><a href="https://www.linkedin.com/in/wellington-garcia-03a767a7/" title="Cientista de Dados">📈</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/p217/"><img style="border-radius: 50%;" src="./assets/PedroLucas.jfif" width="100px;" alt=""/><br /><sub><b>Pedro Lucas</b></sub></a><br /><a href="https://www.linkedin.com/in/p217/" title="Cientista de Dados">📈</a></td>
+  </tr>
+</table>
 
 ### 👨‍💻 Programadores
 
