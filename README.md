@@ -106,7 +106,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <sub><b>Weyder Freire</b></sub></a> <a href="https://www.linkedin.com/in/weyder-freire-7876a81aa/" title="Cientista de Dados">📈</a>
  <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-WeyderFreire-green?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/weyder-freire-7876a81aa/)](https://www.linkedin.com/in/weyder-freire-7876a81aa/)
+[![Linkedin Badge](https://img.shields.io/badge/-WeyderFreire-darkgreen?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/weyder-freire-7876a81aa/)](https://www.linkedin.com/in/weyder-freire-7876a81aa/)
 
 ### 👨‍💻 Programadores
 
