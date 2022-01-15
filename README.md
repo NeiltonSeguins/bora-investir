@@ -90,13 +90,22 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ### ✒️ Designers
 
-<a href="https://www.linkedin.com/in/beatriz-brandt-263237224">
+<table>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/beatriz-brandt-263237224"><img style="border-radius: 50%;" src="./assets/BeatrizBrandt.jfif" width="100px;" alt=""/><br /><sub><b>Beatriz Brandt</b></sub></a><br /><a href="https://www.linkedin.com/in/beatriz-brandt-263237224" title="Design">✒️</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/beatriz-brandt-263237224"><img style="border-radius: 50%;" src="./assets/BeatrizBrandt.jfif" width="100px;" alt=""/><br /><sub><b>Beatriz Brandt</b></sub></a><br /><a href="https://www.linkedin.com/in/beatriz-brandt-263237224" title="Design">✒️</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/beatriz-brandt-263237224"><img style="border-radius: 50%;" src="./assets/BeatrizBrandt.jfif" width="100px;" alt=""/><br /><sub><b>Beatriz Brandt</b></sub></a><br /><a href="https://www.linkedin.com/in/beatriz-brandt-263237224" title="Design">✒️</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/beatriz-brandt-263237224"><img style="border-radius: 50%;" src="./assets/BeatrizBrandt.jfif" width="100px;" alt=""/><br /><sub><b>Beatriz Brandt</b></sub></a><br /><a href="https://www.linkedin.com/in/beatriz-brandt-263237224" title="Design">✒️</a></td>
+  </tr>
+</table>
+
+<!-- <a href="https://www.linkedin.com/in/beatriz-brandt-263237224">
  <img style="border-radius: 50%;" src="./assets/BeatrizBrandt.jfif" width="100px;" alt=""/>
  <br />
  <sub><b>Beatriz Brandt</b></sub></a> <a href="https://www.linkedin.com/in/beatriz-brandt-263237224" title="Design">✒️ </a>
  <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-BeatrizBrandt-red?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/beatriz-brandt-263237224)](https://www.linkedin.com/in/beatriz-brandt-263237224)
+[![Linkedin Badge](https://img.shields.io/badge/-BeatrizBrandt-red?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/beatriz-brandt-263237224)](https://www.linkedin.com/in/beatriz-brandt-263237224) -->
 
 ### 📈 Cientistas de Dados
 
@@ -127,7 +136,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 [![Linkedin Badge](https://img.shields.io/badge/-NeiltonSeguins-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/)](https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/)
 
 <a href="https://www.linkedin.com/in/lucas-gabriel-araujo-ribeiro/">
- <img style="border-radius: 50%;" src="./assets/LucasRibeiro.jpeg" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="./assets/LucasRibeiro.jfif" width="100px;" alt=""/>
  <br />
  <sub><b>Lucas Ribeiro</b></sub></a> <a href="https://www.linkedin.com/in/lucas-gabriel-araujo-ribeiro/" title="Programador">👨‍💻</a>
  <br />
