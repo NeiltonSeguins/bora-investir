@@ -96,7 +96,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <sub><b>Beatriz Brandt</b></sub></a> <a href="https://www.linkedin.com/in/beatriz-brandt-263237224" title="Design">✒️ </a>
  <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-BeatrizBrandt-#BD33A4?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/beatriz-brandt-263237224)](https://www.linkedin.com/in/beatriz-brandt-263237224)
+[![Linkedin Badge](https://img.shields.io/badge/-BeatrizBrandt-red?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/beatriz-brandt-263237224)](https://www.linkedin.com/in/beatriz-brandt-263237224)
 
 ### 📈 Cientistas de Dados
 
@@ -106,7 +106,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <sub><b>Weyder Freire</b></sub></a> <a href="https://www.linkedin.com/in/weyder-freire-7876a81aa/" title="Cientista de Dados">📈</a>
  <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-WeyderFreire-#0F864B?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/weyder-freire-7876a81aa/)](https://www.linkedin.com/in/weyder-freire-7876a81aa/)
+[![Linkedin Badge](https://img.shields.io/badge/-WeyderFreire-green?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/weyder-freire-7876a81aa/)](https://www.linkedin.com/in/weyder-freire-7876a81aa/)
 
 ### 👨‍💻 Programadores
 
@@ -116,7 +116,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <sub><b>Neilton Seguins</b></sub></a> <a href="https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/" title="Photolead">👨‍💻</a>
  <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-NeiltonSeguins-#0F63EE?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/)](https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/)
+[![Linkedin Badge](https://img.shields.io/badge/-NeiltonSeguins-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/)](https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/)
 
 ---
 
