@@ -97,6 +97,15 @@
 }
 
 
+@media (min-width: 721px) {
+    .apresentacao-site {
+        margin: 0px 0px 0px 5em;
+    } 
+    #logo{
+        margin: 0px 0px 0px 3.5em;
+    }
+}
+
 @media (min-width: 769px) {
     .apresentacao-site {
         font-size: inherit;
