@@ -8,11 +8,11 @@
 }
 
 .info-subtitulo {
-    color: #23013D;
+    color: #000000;
 }
 
 .color {
-    color: #57CC99;
+    color: #0B1673;
 }
 
 .info-texto {
@@ -22,12 +22,12 @@
 
 .container-mais {
     font-family: 'Rubik';
-    background: #57CC99;
+    background: #ffffff;
     border-radius: 100px;
     align-self: self-end;
     font-weight: 500;
     border: none;
-    color: #23013D;
+    color: #000000;
     cursor: pointer;
 
 }

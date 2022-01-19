@@ -1,5 +1,5 @@
 .cabecalho {
-    background-color: #23013D;
+    background-color: #0B1673;
     overflow: hidden;
 }
 
@@ -16,14 +16,14 @@
 
 @media (min-width: 600px) {
     .cadastre-se {
-        background: #80ED99;
+        background: #ffffff;
         border-radius: 100px;
         height: calc(1.5em + 4vh);
         width: 8em;
     }
 
     .entrar {
-        border: 1px solid #80ED99;
+        border: 1px solid #ffffff;
         box-sizing: border-box;
         border-radius: 100px;
         height: calc(1.5em + 4vh);
@@ -35,7 +35,7 @@
         justify-content: center;
         height: 100%;
         align-items: center;
-        color: black;
+        color: #0B1673;
     }
 
     #entrar {
