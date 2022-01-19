@@ -35,7 +35,7 @@
   font-size: 35px;
   font-family: "Roboto";
   font-weight: 700;
-  color: #23013d;
+  color: #0B1673;
   margin-left: 80px;
   width: 70%;
 }
@@ -56,7 +56,7 @@
 }
 
 .graficos__info--h3 span {
-  color: #50049a;
+  color: #0B1673;
 }
 
 .graficos__grafico {
@@ -64,22 +64,23 @@
 }
 
 .graficos__button--menos {
-  display: none;
-  background-color: #57cc99;
-  border-radius: 100px;
+  background-color: #FFF;
   border: none;
-
-  margin: 50px auto;
-  color: #23013D;
+  border-radius: 100px;
+  color: #000;
   cursor: pointer;
-  font-size: 18px;
+  display: none;
+  font-family: 'Rubik';
+  font-size: 20px;
+  font-weight: 500;
+  margin: 50px auto;
 }
 
 #show-graphs {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #EAEAEA;
+  background-color: #FFA6CB;
 }
 
 .animate {
@@ -97,8 +98,9 @@
 @media (max-width: 768px) {
   .graficos__button--menos {
     font-size: 12px;
-    width: calc(4em + 2vw);
-    height: calc(1.5em + 1.6vh);
+    width: calc(8em + 2vw);
+    height: calc(1.5em + 4vh);
+    font-size: 13px;
   }
 
   #seta-esquerda {

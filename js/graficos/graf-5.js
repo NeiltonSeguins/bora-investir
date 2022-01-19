@@ -73,6 +73,9 @@ export const grafico5 = () => {
                     },
                     anchor: 'end',
                     align: 'end',
+                    formatter: function(value) {
+                        return value.toFixed(2) + '%';
+                    },
                 },
                 legend: {
                     position: 'bottom',
