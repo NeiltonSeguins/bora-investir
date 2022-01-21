@@ -2,8 +2,8 @@ const secao = document.querySelector('.aprenda-mais');
 const botao = document.querySelector('.aprenda-mais__botao');
 const hiddenCards = document.querySelectorAll('.hidden');
 
-const matchMediaMax = window.matchMedia("(max-width: 768px)");
-const matchMediaMin = window.matchMedia("(min-width: 769px)");
+const matchMediaMax = window.matchMedia("(max-width: 720px)");
+const matchMediaMin = window.matchMedia("(min-width: 721px)");
 
 function ajustar() {
     if (matchMediaMax.matches) {

@@ -102,7 +102,7 @@
   line-height: 55px;
   color: rgba(35, 1, 61, 1);
 
-  width: 50%;
+  width: 55%;
   text-align: center;
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -110,13 +110,38 @@
 
 .tipo-investidor__cards {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: center;
   gap: 5rem;
-
   width: 100%;
   padding: 0 10rem;
 }
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider__seta {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: initial;
+  border: none;
+  cursor: pointer;
+  display: none;
+  height: 40px;
+  width: 25px;
+}
+
+.slider__seta--esquerda {
+  background-image: url('../assets/Icones/seta-esquerda.svg');
+}
+
+.slider__seta--direita {
+  background-image: url('../assets/Icones/seta-direita.svg');
+}
+
 
 .tipo-investidor__cards__individual-card {
   display: flex;
