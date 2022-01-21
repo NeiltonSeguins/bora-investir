@@ -1,13 +1,11 @@
 .cabecalho {
     background-color: #0B1673;
     overflow: hidden;
+    height: auto;
 }
 
 @media (min-width: 200px) {
-    .cabecalho {
-        height: 100vh;
-    }
-
+   
     #logo {
         width: 115px;
         margin: 15px 0px 0px 10px;
@@ -48,18 +46,19 @@
 
 @media (min-width: 769px) {
     .cadastre-se {
-        width: 171px;
+        width: 155px;
         height: 64px;
     }
 
     .entrar {
-        width: 171px;
+        width: 155px;
         height: 64px;
     }
 
     #logo {
-        width: 189px;
-        height: 62px;
+        width: 172px;
+        margin-right: 10px;
+        
     }
 }
 
