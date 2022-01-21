@@ -21,8 +21,8 @@
 }
 
 .playlist__titulo {
-    background-color: #80ED99;
-    color: #23013D;
+    background-color: #FFA6CB;
+    color: #0B1673;
     font-family: 'Roboto', sans-serif;
     padding: 20px 0;
     text-align: center;
@@ -34,12 +34,12 @@
 }
 
 .youtube-playlist__lista {
-    background-image: url('../assets/Imagens/Group 47.png');
+    background-image: url('../assets/Imagens/Group\ 78.svg');
     background-repeat: repeat;
     background-size: contain;
     background-position-y: top;
-    border-left: solid 2px #80ED99;
-    border-right: solid 2px #80ED99;
+    border-left: solid 2px #FFA6CB;
+    border-right: solid 2px #FFA6CB;
     display: flex;
     flex-direction: column;
     width: 25%;
@@ -49,7 +49,7 @@
 .youtube-playlist__lista__item {
     align-items: center;
     background-color: rgba(255, 255, 255, 70%);
-    border: solid 2px #80ED99;
+    border: solid 2px #FFA6CB;
     border-radius: 10px;
     cursor: pointer;
     display: flex;
@@ -59,8 +59,8 @@
 }
 
 .youtube-playlist__lista__item.youtube-playlist__lista__item--ativo {
-    background-color: rgba(128, 237, 153, 70%);
-    border: solid 2px #23013D;
+    background-color: rgba(255, 166, 203, 70%);
+    border: solid 2px #0B1673;
 }
 
 .youtube-playlist__lista__item__thumb {
@@ -73,7 +73,7 @@
 }
 
 .youtube-playlist__lista__item__titulo {
-    color: #23013D;
+    color: #0B1673;
     font-family: 'Roboto', sans-serif;
     font-size: 12.5px;
     width: 100%;
@@ -106,7 +106,7 @@
 }
 
 .youtube-playlist__video__titulo {
-    color: #23013D;
+    color: #0B1673;
     font-family: 'Roboto', sans-serif;
     margin: 50px 0 20px;
 }
