@@ -11,9 +11,6 @@
     background-size: cover;
 }
 
-.banner-app h1 {
-    color: #80ED99;
-}
 
 .banner-app-conteudo {
     margin: 30px 0 30px 0;
@@ -25,7 +22,7 @@
 .banner-app-botão {
     width: 205px;
     height: 64px;
-    background-color: #57CC99;
+    background-color: #FFA6CB;
     border-radius: 100px;
     border: none;
     font-family: 'Rubik';
@@ -43,7 +40,7 @@
 }
 
 .banner-app-titulo {
-    color: white;
+    color: #FFA6CB;
 }
 
 .banner-app-conteudo {

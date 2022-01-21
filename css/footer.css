@@ -1,7 +1,7 @@
 .footer {
     bottom: 0px;
     width: 100%;
-    background-color: #23013D;
+    background-color: #0B1673;
     padding: 80px 15%;
 
 
@@ -137,7 +137,7 @@
     font-family: 'Rubik';
     font-style: normal;
     font-weight: normal;
-    margin: 40px;
+    margin-top: 40px;
     padding: 0 10px;
     flex-grow: 1;
 }

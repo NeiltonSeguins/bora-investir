@@ -1,14 +1,13 @@
 .site-info {
-    display: flex;
-    height: 82vh;
-    justify-content: space-evenly;
-    flex-direction: column;
+    height: auto;
+
     font-family: 'Roboto';
     padding: 3em 0em 3em 0em;
 }
 
 .info-subtitulo {
     color: #000000;
+    margin-bottom: 20px;
 }
 
 .color {
@@ -17,6 +16,7 @@
 
 .info-texto {
     color: #000000;
+    margin-bottom: 40px;
 }
 
 
@@ -24,11 +24,12 @@
     font-family: 'Rubik';
     background: #ffffff;
     border-radius: 100px;
-    align-self: self-end;
     font-weight: 500;
     border: none;
     color: #000000;
     cursor: pointer;
+    float: right;
+    margin-bottom: 40px;
 
 }
 
