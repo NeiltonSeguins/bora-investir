@@ -137,6 +137,10 @@
     .aprenda-mais__item__texto {
         font-size: 15px;
     }
+
+    .aprenda-mais__item--hidden {
+        display: none;
+    }
 }
 
 @media (max-width: 500px) {
