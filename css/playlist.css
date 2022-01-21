@@ -55,10 +55,10 @@
     display: flex;
     padding: 15px;
     margin: 5px 5px 0;
-    transition: 2s;
+    transition: 1s;
 }
 
-.youtube-playlist__lista__item.youtube-playlist__lista__item--ativo {
+.youtube-playlist__lista__item--ativo {
     background-color: rgba(255, 166, 203, 70%);
     border: solid 2px #0B1673;
 }
