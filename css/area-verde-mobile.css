@@ -108,7 +108,7 @@
     font-size: 20px;
   }
 
-  .tipo-investidor__cards__individual-card:nth-of-type(n + 2) {
+  .tipo-investidor__cards__individual-card__titulo--hidden {
     display: none;
   }
 

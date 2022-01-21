@@ -1,37 +1,22 @@
 function proximo() {
     if (index + 1 < cards.length) {
         index++;
-        show(cards[index]);
+        slide(cards[index]);
     }
 }
 
 function anterior() {
     if (index > 0) {
         index--;
-        show(cards[index]);
+        slide(cards[index]);
     }
 }
 
-function show(card) {
+function slide(card) {
     cards.forEach(c => {
-        c.style.display = 'none';
+        c.classList.add('tipo-investidor__cards__individual-card__titulo--hidden');
     });
-    card.style.display = 'block';
-}
-
-function ajustar() {
-    if (matchMediaMax.matches) {
-        cards.forEach(card => {
-            card.style.display = 'none';
-        });
-        cards[index].style.display = 'block';
-    }
-    
-    if (matchMediaMin.matches) {
-        cards.forEach(card => {
-            card.style.display = 'block';
-        });
-    }
+    card.classList.remove('tipo-investidor__cards__individual-card__titulo--hidden');
 }
 
 var index = 0;
@@ -41,4 +26,3 @@ const setaDireita = document.querySelector('.slider__seta--direita');
 
 setaDireita.onclick = proximo;
 setaEsquerda.onclick = anterior;
-window.onresize = ajustar;
