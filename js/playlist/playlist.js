@@ -3,19 +3,14 @@ import { getEmbedLink, getThumb} from './youtube.js';
 
 function setVideo(index) {
     iframe.src = getEmbedLink(videos[index].id, true);
-    setAtivo(index);
+    
+    itens.forEach(item => {
+        item.classList.remove('youtube-playlist__lista__item--ativo');
+    });
+    itens[index].classList.add('youtube-playlist__lista__item--ativo');
+    
     sleep(1000);
     tituloVideo.innerHTML = `${index + 1}. ${videos[index].titulo}`;
-}
-
-function setAtivo(index) {
-    itens.forEach(item => {
-        item.style.backgroundColor = null;
-        item.style.border = 'solid 2px #FFA6CB';
-    });
-    itens[index].classList.add('.youtube-playlist__lista__item--ativo');
-    itens[index].style.backgroundColor = 'rgba(255, 166, 203, 70%)';
-    itens[index].style.border = 'solid 2px #0B1673';
 }
 
 function avancar(index) {
@@ -109,4 +104,4 @@ for (let i=0; i<videos.length; i++) {
 }
 
 const itens = document.querySelectorAll('.youtube-playlist__lista__item');
-setAtivo(index, itens);
+itens[0].classList.add('youtube-playlist__lista__item--ativo');
