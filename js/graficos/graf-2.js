@@ -3,7 +3,7 @@ import { h2, h3 } from './controller.js';
 
 export const grafico2 = () => {
     h2.innerHTML = "Qual é em média a idade do investidor maranhense?";
-    h3.innerHTML = "Adultos com idade entre <span>35 e 44 anos</span> são os principais investidores.";
+    h3.innerHTML = "Adultos com idade entre <span>18 e 25 anos</span> são os principais investidores.";
 
     const ctx = document.getElementById('grafico').getContext('2d');
     const grafico = new Chart(ctx, {

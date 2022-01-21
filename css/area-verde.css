@@ -92,7 +92,7 @@
   justify-content: center;
   margin-top: 5rem;
 
-  background: #80ed99;
+  background: #FCBF49;
 }
 
 .tipo-investidor__titulo {
@@ -100,9 +100,9 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 55px;
-  color: rgba(35, 1, 61, 1);
+  color: #000;
 
-  width: 50%;
+  width: 75%;
   text-align: center;
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -110,13 +110,38 @@
 
 .tipo-investidor__cards {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: center;
   gap: 5rem;
-
   width: 100%;
   padding: 0 10rem;
 }
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider__seta {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: initial;
+  border: none;
+  cursor: pointer;
+  display: none;
+  height: 40px;
+  width: 25px;
+}
+
+.slider__seta--esquerda {
+  background-image: url('../assets/Icones/seta-esquerda.svg');
+}
+
+.slider__seta--direita {
+  background-image: url('../assets/Icones/seta-direita.svg');
+}
+
 
 .tipo-investidor__cards__individual-card {
   display: flex;
@@ -147,7 +172,7 @@
 
   margin-bottom: 2rem;
 
-  color: #23013d;
+  color: #0B1673;
 }
 
 .tipo-investidor__cards__individual-card__descricao {
@@ -169,7 +194,7 @@
   letter-spacing: 0em;
   text-align: center;
 
-  color: #23013d;
+  color: #0B1673;
 
   margin-top: 6rem;
   margin-bottom: 2rem;
@@ -186,7 +211,7 @@
 .tipo-investidor__botão {
 
   background: none;
-  background-color: #23013d;
+  background-color: #0B1673;
   border-radius: 100px;
   border: none;
   font-family: "Roboto";

@@ -11,11 +11,11 @@ function setVideo(index) {
 function setAtivo(index) {
     itens.forEach(item => {
         item.style.backgroundColor = null;
-        item.style.border = 'solid 2px #80ED99';
+        item.style.border = 'solid 2px #FFA6CB';
     });
     itens[index].classList.add('.youtube-playlist__lista__item--ativo');
-    itens[index].style.backgroundColor = 'rgba(128, 237, 153, 60%)';
-    itens[index].style.border = 'solid 2px #23013D';
+    itens[index].style.backgroundColor = 'rgba(255, 166, 203, 70%)';
+    itens[index].style.border = 'solid 2px #0B1673';
 }
 
 function avancar(index) {

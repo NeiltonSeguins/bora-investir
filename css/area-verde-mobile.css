@@ -80,6 +80,7 @@
   .tipo-investidor__titulo {
     font-size: 30px;
     line-height: 35px;
+    margin: 40px 0;
   }
 
   .tipo-investidor__cards {
@@ -87,13 +88,32 @@
     align-items: center;
     padding: 0;
   }
+
+  .tipo-investidor__sub-titulo {
+    margin-top: 2rem;
+  }
+
+  .tipo-investidor__cards {
+    margin: 0 10px;
+    width: 65%;
+  }
+
   .tipo-investidor__cards__individual-card {
     width: 90%;
   }
+
   .tipo-investidor__botão {
     width: calc(8em + 2vw);
     height: calc(1.5em + 4vh);
     font-size: 20px;
+  }
+
+  .tipo-investidor__cards__individual-card:nth-of-type(n + 2) {
+    display: none;
+  }
+
+  .slider__seta {
+    display: block;
   }
   
 }
