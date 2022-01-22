@@ -104,7 +104,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <table>
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/weyder-freire-7876a81aa/"><img style="border-radius: 50%;" src="./assets/Colaboradores/WeyderFreire.jfif" width="100px;" alt=""/><br /><sub><b>Weyder Freire</b></sub></a><br /><a href="https://www.linkedin.com/in/weyder-freire-7876a81aa/" title="Cientista de Dados">📈</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/wellington-garcia-03a767a7/"><img style="border-radius: 50%;" src="./assets/Colaboradores/sem-foto.png" width="100px;" alt=""/><br /><sub><b> Wellington Garcia </b></sub></a><br /><a href="https://www.linkedin.com/in/wellington-garcia-03a767a7/" title="Cientista de Dados">📈</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/wellington-garcia-03a767a7/"><img style="border-radius: 50%;" src="./assets/Colaboradores/WellingtonGarcia.jpg" width="100px;" alt=""/><br /><sub><b> Wellington Garcia </b></sub></a><br /><a href="https://www.linkedin.com/in/wellington-garcia-03a767a7/" title="Cientista de Dados">📈</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/p217/"><img style="border-radius: 50%;" src="./assets/Colaboradores/PedroLucas.jfif" width="100px;" alt=""/><br /><sub><b>Pedro Lucas</b></sub></a><br /><a href="https://www.linkedin.com/in/p217/" title="Cientista de Dados">📈</a></td>
   </tr>
 </table>
